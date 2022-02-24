@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 36ffba60118440f49a8653d1d3232448
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: shotBottle
+    100004: shotsBottle_fragments
+    100006: shotsBottleFragment
+    100008: shotsBottleFragment1
+    100010: shotsBottleFragment10
+    100012: shotsBottleFragment11
+    100014: shotsBottleFragment12
+    100016: shotsBottleFragment13
+    100018: shotsBottleFragment14
+    100020: shotsBottleFragment15
+    100022: shotsBottleFragment16
+    100024: shotsBottleFragment17
+    100026: shotsBottleFragment18
+    100028: shotsBottleFragment19
+    100030: shotsBottleFragment2
+    100032: shotsBottleFragment20
+    100034: shotsBottleFragment21
+    100036: shotsBottleFragment22
+    100038: shotsBottleFragment3
+    100040: shotsBottleFragment4
+    100042: shotsBottleFragment5
+    100044: shotsBottleFragment6
+    100046: shotsBottleFragment7
+    100048: shotsBottleFragment8
+    100050: shotsBottleFragment9
+    400000: //RootNode
+    400002: shotBottle
+    400004: shotsBottle_fragments
+    400006: shotsBottleFragment
+    400008: shotsBottleFragment1
+    400010: shotsBottleFragment10
+    400012: shotsBottleFragment11
+    400014: shotsBottleFragment12
+    400016: shotsBottleFragment13
+    400018: shotsBottleFragment14
+    400020: shotsBottleFragment15
+    400022: shotsBottleFragment16
+    400024: shotsBottleFragment17
+    400026: shotsBottleFragment18
+    400028: shotsBottleFragment19
+    400030: shotsBottleFragment2
+    400032: shotsBottleFragment20
+    400034: shotsBottleFragment21
+    400036: shotsBottleFragment22
+    400038: shotsBottleFragment3
+    400040: shotsBottleFragment4
+    400042: shotsBottleFragment5
+    400044: shotsBottleFragment6
+    400046: shotsBottleFragment7
+    400048: shotsBottleFragment8
+    400050: shotsBottleFragment9
+    2300000: shotBottle
+    2300002: shotsBottleFragment
+    2300004: shotsBottleFragment1
+    2300006: shotsBottleFragment10
+    2300008: shotsBottleFragment11
+    2300010: shotsBottleFragment12
+    2300012: shotsBottleFragment13
+    2300014: shotsBottleFragment14
+    2300016: shotsBottleFragment15
+    2300018: shotsBottleFragment16
+    2300020: shotsBottleFragment17
+    2300022: shotsBottleFragment18
+    2300024: shotsBottleFragment19
+    2300026: shotsBottleFragment2
+    2300028: shotsBottleFragment20
+    2300030: shotsBottleFragment21
+    2300032: shotsBottleFragment22
+    2300034: shotsBottleFragment3
+    2300036: shotsBottleFragment4
+    2300038: shotsBottleFragment5
+    2300040: shotsBottleFragment6
+    2300042: shotsBottleFragment7
+    2300044: shotsBottleFragment8
+    2300046: shotsBottleFragment9
+    3300000: shotBottle
+    3300002: shotsBottleFragment
+    3300004: shotsBottleFragment1
+    3300006: shotsBottleFragment10
+    3300008: shotsBottleFragment11
+    3300010: shotsBottleFragment12
+    3300012: shotsBottleFragment13
+    3300014: shotsBottleFragment14
+    3300016: shotsBottleFragment15
+    3300018: shotsBottleFragment16
+    3300020: shotsBottleFragment17
+    3300022: shotsBottleFragment18
+    3300024: shotsBottleFragment19
+    3300026: shotsBottleFragment2
+    3300028: shotsBottleFragment20
+    3300030: shotsBottleFragment21
+    3300032: shotsBottleFragment22
+    3300034: shotsBottleFragment3
+    3300036: shotsBottleFragment4
+    3300038: shotsBottleFragment5
+    3300040: shotsBottleFragment6
+    3300042: shotsBottleFragment7
+    3300044: shotsBottleFragment8
+    3300046: shotsBottleFragment9
+    4300000: shotBottle
+    4300002: shotsBottleFragment1
+    4300004: shotsBottleFragment2
+    4300006: shotsBottleFragment3
+    4300008: shotsBottleFragment4
+    4300010: shotsBottleFragment5
+    4300012: shotsBottleFragment6
+    4300014: shotsBottleFragment7
+    4300016: shotsBottleFragment8
+    4300018: shotsBottleFragment9
+    4300020: shotsBottleFragment10
+    4300022: shotsBottleFragment11
+    4300024: shotsBottleFragment12
+    4300026: shotsBottleFragment
+    4300028: shotsBottleFragment13
+    4300030: shotsBottleFragment14
+    4300032: shotsBottleFragment15
+    4300034: shotsBottleFragment16
+    4300036: shotsBottleFragment17
+    4300038: shotsBottleFragment18
+    4300040: shotsBottleFragment19
+    4300042: shotsBottleFragment20
+    4300044: shotsBottleFragment21
+    4300046: shotsBottleFragment22
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

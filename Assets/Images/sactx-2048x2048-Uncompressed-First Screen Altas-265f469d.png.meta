@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 3885ad887cfa45d3bd6c44be744824b9
+timeCreated: 1565222994
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300004: conveyor_bg_tile
+    21300006: box
+    21300008: conveyor
+    21300000: Press_Up
+    21300010: conveyor_line
+    21300012: funnel
+    21300002: Press_Down
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: conveyor_bg_tile
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1015
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 57.5}
+        - {x: 37.5, y: 57.5}
+        - {x: -37.5, y: -57.5}
+      - - {x: -37.5, y: -57.5}
+        - {x: 37.5, y: 57.5}
+        - {x: 37.5, y: -57.5}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1015
+        width: 209
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.5, y: 163}
+        - {x: 104.5, y: 163}
+        - {x: -104.5, y: -163}
+      - - {x: -104.5, y: -163}
+        - {x: 104.5, y: 163}
+        - {x: 104.5, y: -163}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 1440
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -720, y: 216}
+        - {x: 720, y: 216}
+        - {x: -720, y: -216}
+      - - {x: -720, y: -216}
+        - {x: 720, y: 216}
+        - {x: 720, y: -216}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_Up
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 369
+        height: 1386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -184.5, y: 693}
+        - {x: 184.5, y: 693}
+        - {x: -184.5, y: -693}
+      - - {x: -184.5, y: -693}
+        - {x: 184.5, y: 693}
+        - {x: 184.5, y: -693}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_line
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1661
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 30}
+        - {x: 41, y: 30}
+        - {x: -41, y: -30}
+      - - {x: -41, y: -30}
+        - {x: 41, y: 30}
+        - {x: 41, y: -30}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: funnel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1428
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -714, y: 283.5}
+        - {x: 714, y: 283.5}
+        - {x: -714, y: -283.5}
+      - - {x: -714, y: -283.5}
+        - {x: 714, y: 283.5}
+        - {x: 714, y: -283.5}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Press_Down
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1015
+        width: 369
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -184.5, y: 319}
+        - {x: 184.5, y: 319}
+        - {x: -184.5, y: -319}
+      - - {x: -184.5, y: -319}
+        - {x: 184.5, y: 319}
+        - {x: 184.5, y: -319}
+      physicsShape: []
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

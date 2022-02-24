@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613b92e086932f8e7ba56669636c7874, type: 3}
+  m_Name: "Piece Settings"
+  m_EditorClassIdentifier: 
+  onPieceCreateForce: {x: 250, y: 100}
+  piecesSpread: 0.25
+  maxPieceTypesSpawn: 2
+  maxPiecesAmount: 60
+  spawnPiecesSpacing: 1.5
+  pieceBreakThreshold: 0.75
+  defaultPieceMaterial: {fileID: 13400000, guid: a3508fb7018942099c7f1c5089587852, type: 2}
+  smallestPieceMaterial: {fileID: 13400000, guid: ba1ca37832eb4bf184dac53848735164, type: 2}

@@ -1,0 +1,412 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db99d5ecd1495e25e5fbea6d9f70b73, type: 3}
+  m_Name: Levels Settings
+  m_EditorClassIdentifier: 
+  maxLevel: 130
+  defaultMoneyToUnlock: 1200
+  deltaMoneyToUnlock: 1.85
+  moneyToUnlockDeltaType: 1
+  defaultRewardedMoney: 600
+  deltaRewardedMoney: 1.8
+  rewardedMoneyDeltaType: 1
+  levels:
+  - levelNumber: 1
+    earnedMoneyToUnclock: 1200
+    rewardedMoney: 600
+  - levelNumber: 2
+    earnedMoneyToUnclock: 2220
+    rewardedMoney: 1080
+  - levelNumber: 3
+    earnedMoneyToUnclock: 4107
+    rewardedMoney: 1943.9999
+  - levelNumber: 4
+    earnedMoneyToUnclock: 7597.9507
+    rewardedMoney: 3499.1995
+  - levelNumber: 5
+    earnedMoneyToUnclock: 14056.208
+    rewardedMoney: 6298.559
+  - levelNumber: 6
+    earnedMoneyToUnclock: 26003.986
+    rewardedMoney: 11337.406
+  - levelNumber: 7
+    earnedMoneyToUnclock: 48107.375
+    rewardedMoney: 20407.332
+  - levelNumber: 8
+    earnedMoneyToUnclock: 88998.64
+    rewardedMoney: 36733.195
+  - levelNumber: 9
+    earnedMoneyToUnclock: 164647.48
+    rewardedMoney: 66119.75
+  - levelNumber: 10
+    earnedMoneyToUnclock: 304597.88
+    rewardedMoney: 119015.54
+  - levelNumber: 11
+    earnedMoneyToUnclock: 563506.06
+    rewardedMoney: 214227.98
+  - levelNumber: 12
+    earnedMoneyToUnclock: 1042486.25
+    rewardedMoney: 385610.34
+  - levelNumber: 13
+    earnedMoneyToUnclock: 1928599.5
+    rewardedMoney: 694098.6
+  - levelNumber: 14
+    earnedMoneyToUnclock: 3567909
+    rewardedMoney: 1249377.4
+  - levelNumber: 15
+    earnedMoneyToUnclock: 6600632
+    rewardedMoney: 2248879.5
+  - levelNumber: 16
+    earnedMoneyToUnclock: 12211170
+    rewardedMoney: 4047982.5
+  - levelNumber: 17
+    earnedMoneyToUnclock: 22590664
+    rewardedMoney: 7286369
+  - levelNumber: 18
+    earnedMoneyToUnclock: 41792730
+    rewardedMoney: 13115463
+  - levelNumber: 19
+    earnedMoneyToUnclock: 77316550
+    rewardedMoney: 23607834
+  - levelNumber: 20
+    earnedMoneyToUnclock: 143035620
+    rewardedMoney: 42494100
+  - levelNumber: 21
+    earnedMoneyToUnclock: 264615900
+    rewardedMoney: 76489380
+  - levelNumber: 22
+    earnedMoneyToUnclock: 489539400
+    rewardedMoney: 137680880
+  - levelNumber: 23
+    earnedMoneyToUnclock: 905647940
+    rewardedMoney: 247825570
+  - levelNumber: 24
+    earnedMoneyToUnclock: 1.6754487e+9
+    rewardedMoney: 1.33825e+9
+  - levelNumber: 25
+    earnedMoneyToUnclock: 3.0995802e+9
+    rewardedMoney: 802954800
+  - levelNumber: 26
+    earnedMoneyToUnclock: 5.7342234e+9
+    rewardedMoney: 1.4453185e+9
+  - levelNumber: 27
+    earnedMoneyToUnclock: 1.0608313e+10
+    rewardedMoney: 2.6015734e+9
+  - levelNumber: 28
+    earnedMoneyToUnclock: 1.962538e+10
+    rewardedMoney: 4.682832e+9
+  - levelNumber: 29
+    earnedMoneyToUnclock: 3.6306952e+10
+    rewardedMoney: 2.528729e+10
+  - levelNumber: 30
+    earnedMoneyToUnclock: 6.7167863e+10
+    rewardedMoney: 1.5172376e+10
+  - levelNumber: 31
+    earnedMoneyToUnclock: 1.2426055e+11
+    rewardedMoney: 2.7310275e+10
+  - levelNumber: 32
+    earnedMoneyToUnclock: 2.2988202e+11
+    rewardedMoney: 4.9158496e+10
+  - levelNumber: 33
+    earnedMoneyToUnclock: 4.252817e+11
+    rewardedMoney: 8.848528e+10
+  - levelNumber: 34
+    earnedMoneyToUnclock: 7.867712e+11
+    rewardedMoney: 4.778205e+11
+  - levelNumber: 35
+    earnedMoneyToUnclock: 1.4555268e+12
+    rewardedMoney: 2.866923e+11
+  - levelNumber: 36
+    earnedMoneyToUnclock: 2.6927248e+12
+    rewardedMoney: 5.1604613e+11
+  - levelNumber: 37
+    earnedMoneyToUnclock: 4.98154e+12
+    rewardedMoney: 9.28883e+11
+  - levelNumber: 38
+    earnedMoneyToUnclock: 9.215851e+12
+    rewardedMoney: 1.6719893e+12
+  - levelNumber: 39
+    earnedMoneyToUnclock: 1.7049324e+13
+    rewardedMoney: 3.0095806e+12
+  - levelNumber: 40
+    earnedMoneyToUnclock: 3.1541248e+13
+    rewardedMoney: 5.417245e+12
+  - levelNumber: 41
+    earnedMoneyToUnclock: 5.835131e+13
+    rewardedMoney: 9.751041e+12
+  - levelNumber: 42
+    earnedMoneyToUnclock: 1.0794993e+14
+    rewardedMoney: 1.7551874e+13
+  - levelNumber: 43
+    earnedMoneyToUnclock: 1.9970737e+14
+    rewardedMoney: 3.1593373e+13
+  - levelNumber: 44
+    earnedMoneyToUnclock: 3.6945862e+14
+    rewardedMoney: 5.686807e+13
+  - levelNumber: 45
+    earnedMoneyToUnclock: 6.834984e+14
+    rewardedMoney: 1.0236252e+14
+  - levelNumber: 46
+    earnedMoneyToUnclock: 1.2644722e+15
+    rewardedMoney: 1.8425252e+14
+  - levelNumber: 47
+    earnedMoneyToUnclock: 2.3392735e+15
+    rewardedMoney: 3.3165452e+14
+  - levelNumber: 48
+    earnedMoneyToUnclock: 4.327656e+15
+    rewardedMoney: 5.969782e+14
+  - levelNumber: 49
+    earnedMoneyToUnclock: 8.006164e+15
+    rewardedMoney: 1.0745607e+15
+  - levelNumber: 50
+    earnedMoneyToUnclock: 1.4811404e+16
+    rewardedMoney: 1.9342093e+15
+  - levelNumber: 51
+    earnedMoneyToUnclock: 2.7401097e+16
+    rewardedMoney: 3.4815762e+15
+  - levelNumber: 52
+    earnedMoneyToUnclock: 5.0692026e+16
+    rewardedMoney: 6.266838e+15
+  - levelNumber: 53
+    earnedMoneyToUnclock: 9.378025e+16
+    rewardedMoney: 1.1280307e+16
+  - levelNumber: 54
+    earnedMoneyToUnclock: 1.7349347e+17
+    rewardedMoney: 2.0304552e+16
+  - levelNumber: 55
+    earnedMoneyToUnclock: 3.2096294e+17
+    rewardedMoney: 3.654819e+16
+  - levelNumber: 56
+    earnedMoneyToUnclock: 5.937814e+17
+    rewardedMoney: 6.5786744e+16
+  - levelNumber: 57
+    earnedMoneyToUnclock: 1.0984957e+18
+    rewardedMoney: 1.1841613e+17
+  - levelNumber: 58
+    earnedMoneyToUnclock: 2.032217e+18
+    rewardedMoney: 2.1314904e+17
+  - levelNumber: 59
+    earnedMoneyToUnclock: 3.7596013e+18
+    rewardedMoney: 3.8366826e+17
+  - levelNumber: 60
+    earnedMoneyToUnclock: 6.955263e+18
+    rewardedMoney: 6.906029e+17
+  - levelNumber: 61
+    earnedMoneyToUnclock: 1.2867237e+19
+    rewardedMoney: 1.243085e+18
+  - levelNumber: 62
+    earnedMoneyToUnclock: 2.3804387e+19
+    rewardedMoney: 2.237553e+18
+  - levelNumber: 63
+    earnedMoneyToUnclock: 4.403812e+19
+    rewardedMoney: 4.0275955e+18
+  - levelNumber: 64
+    earnedMoneyToUnclock: 8.147052e+19
+    rewardedMoney: 7.249672e+18
+  - levelNumber: 65
+    earnedMoneyToUnclock: 1.5072046e+20
+    rewardedMoney: 1.3049409e+19
+  - levelNumber: 66
+    earnedMoneyToUnclock: 2.7883286e+20
+    rewardedMoney: 2.3488937e+19
+  - levelNumber: 67
+    earnedMoneyToUnclock: 5.158408e+20
+    rewardedMoney: 4.2280084e+19
+  - levelNumber: 68
+    earnedMoneyToUnclock: 9.5430544e+20
+    rewardedMoney: 7.610415e+19
+  - levelNumber: 69
+    earnedMoneyToUnclock: 1.7654652e+21
+    rewardedMoney: 1.3698746e+20
+  - levelNumber: 70
+    earnedMoneyToUnclock: 3.2661107e+21
+    rewardedMoney: 2.4657743e+20
+  - levelNumber: 71
+    earnedMoneyToUnclock: 6.042305e+21
+    rewardedMoney: 4.4383935e+20
+  - levelNumber: 72
+    earnedMoneyToUnclock: 1.1178264e+22
+    rewardedMoney: 7.9891085e+20
+  - levelNumber: 73
+    earnedMoneyToUnclock: 2.0679789e+22
+    rewardedMoney: 1.4380395e+21
+  - levelNumber: 74
+    earnedMoneyToUnclock: 3.825761e+22
+    rewardedMoney: 2.588471e+21
+  - levelNumber: 75
+    earnedMoneyToUnclock: 7.0776577e+22
+    rewardedMoney: 4.6592474e+21
+  - levelNumber: 76
+    earnedMoneyToUnclock: 1.30936665e+23
+    rewardedMoney: 8.386645e+21
+  - levelNumber: 77
+    earnedMoneyToUnclock: 2.4223286e+23
+    rewardedMoney: 1.5095961e+22
+  - levelNumber: 78
+    earnedMoneyToUnclock: 4.481308e+23
+    rewardedMoney: 2.717273e+22
+  - levelNumber: 79
+    earnedMoneyToUnclock: 8.290419e+23
+    rewardedMoney: 4.891091e+22
+  - levelNumber: 80
+    earnedMoneyToUnclock: 1.5337276e+24
+    rewardedMoney: 8.8039635e+22
+  - levelNumber: 81
+    earnedMoneyToUnclock: 2.837396e+24
+    rewardedMoney: 1.5847135e+23
+  - levelNumber: 82
+    earnedMoneyToUnclock: 5.249183e+24
+    rewardedMoney: 2.8524842e+23
+  - levelNumber: 83
+    earnedMoneyToUnclock: 9.710989e+24
+    rewardedMoney: 5.1344714e+23
+  - levelNumber: 84
+    earnedMoneyToUnclock: 1.7965328e+25
+    rewardedMoney: 9.242048e+23
+  - levelNumber: 85
+    earnedMoneyToUnclock: 3.3235856e+25
+    rewardedMoney: 1.6635686e+24
+  - levelNumber: 86
+    earnedMoneyToUnclock: 6.1486337e+25
+    rewardedMoney: 2.9944234e+24
+  - levelNumber: 87
+    earnedMoneyToUnclock: 1.1374973e+26
+    rewardedMoney: 5.389962e+24
+  - levelNumber: 88
+    earnedMoneyToUnclock: 2.10437e+26
+    rewardedMoney: 9.701931e+24
+  - levelNumber: 89
+    earnedMoneyToUnclock: 3.8930846e+26
+    rewardedMoney: 1.7463476e+25
+  - levelNumber: 90
+    earnedMoneyToUnclock: 7.2022066e+26
+    rewardedMoney: 3.1434255e+25
+  - levelNumber: 91
+    earnedMoneyToUnclock: 1.3324083e+27
+    rewardedMoney: 5.6581657e+25
+  - levelNumber: 92
+    earnedMoneyToUnclock: 2.4649553e+27
+    rewardedMoney: 1.0184698e+26
+  - levelNumber: 93
+    earnedMoneyToUnclock: 4.5601674e+27
+    rewardedMoney: 1.8332457e+26
+  - levelNumber: 94
+    earnedMoneyToUnclock: 8.43631e+27
+    rewardedMoney: 3.299842e+26
+  - levelNumber: 95
+    earnedMoneyToUnclock: 1.5607172e+28
+    rewardedMoney: 5.9397155e+26
+  - levelNumber: 96
+    earnedMoneyToUnclock: 2.8873271e+28
+    rewardedMoney: 1.0691488e+27
+  - levelNumber: 97
+    earnedMoneyToUnclock: 5.3415547e+28
+    rewardedMoney: 1.9244678e+27
+  - levelNumber: 98
+    earnedMoneyToUnclock: 9.881878e+28
+    rewardedMoney: 3.4640418e+27
+  - levelNumber: 99
+    earnedMoneyToUnclock: 1.8281473e+29
+    rewardedMoney: 6.235275e+27
+  - levelNumber: 100
+    earnedMoneyToUnclock: 3.3820724e+29
+    rewardedMoney: 1.1223495e+28
+  - levelNumber: 101
+    earnedMoneyToUnclock: 6.2568345e+29
+    rewardedMoney: 2.020229e+28
+  - levelNumber: 102
+    earnedMoneyToUnclock: 1.15751436e+30
+    rewardedMoney: 3.6364123e+28
+  - levelNumber: 103
+    earnedMoneyToUnclock: 2.1414016e+30
+    rewardedMoney: 6.545542e+28
+  - levelNumber: 104
+    earnedMoneyToUnclock: 3.9615928e+30
+    rewardedMoney: 1.1781976e+29
+  - levelNumber: 105
+    earnedMoneyToUnclock: 7.328947e+30
+    rewardedMoney: 2.1207555e+29
+  - levelNumber: 106
+    earnedMoneyToUnclock: 1.3558552e+31
+    rewardedMoney: 3.8173593e+29
+  - levelNumber: 107
+    earnedMoneyToUnclock: 2.5083322e+31
+    rewardedMoney: 6.871247e+29
+  - levelNumber: 108
+    earnedMoneyToUnclock: 4.640415e+31
+    rewardedMoney: 1.2368244e+30
+  - levelNumber: 109
+    earnedMoneyToUnclock: 8.584767e+31
+    rewardedMoney: 2.2262839e+30
+  - levelNumber: 110
+    earnedMoneyToUnclock: 1.5881819e+32
+    rewardedMoney: 4.007311e+30
+  - levelNumber: 111
+    earnedMoneyToUnclock: 2.9381366e+32
+    rewardedMoney: 7.213159e+30
+  - levelNumber: 112
+    earnedMoneyToUnclock: 5.435553e+32
+    rewardedMoney: 1.2983688e+31
+  - levelNumber: 113
+    earnedMoneyToUnclock: 1.0055773e+33
+    rewardedMoney: 2.3370637e+31
+  - levelNumber: 114
+    earnedMoneyToUnclock: 1.860318e+33
+    rewardedMoney: 4.2067146e+31
+  - levelNumber: 115
+    earnedMoneyToUnclock: 3.4415884e+33
+    rewardedMoney: 7.5720856e+31
+  - levelNumber: 116
+    earnedMoneyToUnclock: 6.3669385e+33
+    rewardedMoney: 1.3629754e+32
+  - levelNumber: 117
+    earnedMoneyToUnclock: 1.1778837e+34
+    rewardedMoney: 2.4533556e+32
+  - levelNumber: 118
+    earnedMoneyToUnclock: 2.179085e+34
+    rewardedMoney: 4.41604e+32
+  - levelNumber: 119
+    earnedMoneyToUnclock: 4.0313067e+34
+    rewardedMoney: 7.948872e+32
+  - levelNumber: 120
+    earnedMoneyToUnclock: 7.457918e+34
+    rewardedMoney: 1.4307969e+33
+  - levelNumber: 121
+    earnedMoneyToUnclock: 1.3797148e+35
+    rewardedMoney: 2.5754343e+33
+  - levelNumber: 122
+    earnedMoneyToUnclock: 2.5524723e+35
+    rewardedMoney: 4.6357818e+33
+  - levelNumber: 123
+    earnedMoneyToUnclock: 4.722074e+35
+    rewardedMoney: 8.3444066e+33
+  - levelNumber: 124
+    earnedMoneyToUnclock: 8.7358374e+35
+    rewardedMoney: 1.5019931e+34
+  - levelNumber: 125
+    earnedMoneyToUnclock: 1.61613e+36
+    rewardedMoney: 2.7035878e+34
+  - levelNumber: 126
+    earnedMoneyToUnclock: 2.9898405e+36
+    rewardedMoney: 4.8664577e+34
+  - levelNumber: 127
+    earnedMoneyToUnclock: 5.5312045e+36
+    rewardedMoney: 8.759623e+34
+  - levelNumber: 128
+    earnedMoneyToUnclock: 1.02327285e+37
+    rewardedMoney: 1.5767321e+35
+  - levelNumber: 129
+    earnedMoneyToUnclock: 1.8930549e+37
+    rewardedMoney: 2.8381178e+35
+  - levelNumber: 130
+    earnedMoneyToUnclock: 3.5021515e+37
+    rewardedMoney: 5.108612e+35

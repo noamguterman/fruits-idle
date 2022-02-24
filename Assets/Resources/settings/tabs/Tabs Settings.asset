@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98f4ba06a1c3929f7db745ce08bd178, type: 3}
+  m_Name: "Tabs Settings"
+  m_EditorClassIdentifier: 
+  onTabClickScrollTime: 0.35
+  onTabClickScrollCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.912526
+      outSlope: 3.912526
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.01639344
+    - serializedVersion: 3
+      time: 0.09324643
+      value: 0.4563528
+      inSlope: 1.901897
+      outSlope: 1.901897
+      weightedMode: 0
+      inWeight: 0.278263
+      outWeight: 0.03038021
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.0536842
+      outSlope: 0.0536842
+      weightedMode: 0
+      inWeight: 0.05435723
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  defaultTab: {fileID: 11400000, guid: 20cbdee074e849dc84ca290a0fa63ecd, type: 2}
+  tabs:
+  - {fileID: 11400000, guid: 20cbdee074e849dc84ca290a0fa63ecd, type: 2}
+  - {fileID: 11400000, guid: 02f7b1116d2f4e2893afb8ea98a5a39f, type: 2}
+  - {fileID: 11400000, guid: f5b644183e8c491b936e902fbc06e8a5, type: 2}
+  - {fileID: 11400000, guid: 5a3ea922e5054f1f8715d448febedf67, type: 2}
+  - {fileID: 11400000, guid: 3a34523cc3ea477bbe82bb56fee936ac, type: 2}

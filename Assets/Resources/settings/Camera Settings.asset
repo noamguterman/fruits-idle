@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f5792fb3a1e95442f6c5133a4bb5ea, type: 3}
+  m_Name: "Camera Settings"
+  m_EditorClassIdentifier: 
+  sensitivity: 0.01
+  minSpeedSnapThreshold: 20
+  speedDecreaseRate: 300
+  snapToScreenTime: 0.35
+  snapToScreenCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.238767
+      outSlope: 3.238767
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.01763486
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.05184379
+      outSlope: 0.05184379
+      weightedMode: 0
+      inWeight: 0.01867223
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

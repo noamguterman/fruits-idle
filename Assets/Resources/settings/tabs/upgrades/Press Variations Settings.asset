@@ -1,0 +1,3240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc746793a0a6d447190181268d9b6c0, type: 3}
+  m_Name: Press Variations Settings
+  m_EditorClassIdentifier: 
+  isEnabled: 1
+  tabID: 1
+  tabSprite: {fileID: 21300000, guid: f633ef59b18052e40bf57321e9828e82, type: 3}
+  selectedTabSprite: {fileID: 21300000, guid: e22ab8fd88f603144ad194e59912648c, type: 3}
+  pressVariations:
+  - press: {fileID: 4320241365922628210, guid: 2bb51dc648eff7e44be757358b600912, type: 3}
+    pressUpgrades:
+    - upgradeName: Press Speed
+      valueType: s
+      upgradeImage: {fileID: 21300000, guid: 534c945d720cc5140ad3575709939f29, type: 3}
+      priceImage: {fileID: 0}
+      buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+      pulseButtonWhenAvailable: 0
+      useCustomButtonPrefab: 0
+      buttonPrefab: {fileID: 0}
+      timerOutputType: 1
+      timerAdditionalOutputString: 
+      buttonClickSound: 2
+      order: 121
+      overriveButtonOptions: 0
+      removeButtonOnMaxLevel: 0
+      upgrades:
+      - level: 1
+        priceOfLevelUp: 30
+        value: 2.5
+      - level: 2
+        priceOfLevelUp: 51
+        value: 2.3999999
+      - level: 3
+        priceOfLevelUp: 86.700005
+        value: 2.304
+      - level: 4
+        priceOfLevelUp: 147.39001
+        value: 2.21184
+      - level: 5
+        priceOfLevelUp: 250.56303
+        value: 2.123366
+      - level: 6
+        priceOfLevelUp: 425.95715
+        value: 2.0384314
+      - level: 7
+        priceOfLevelUp: 724.1272
+        value: 1.9568943
+      - level: 8
+        priceOfLevelUp: 1231.0162
+        value: 1.8786185
+      - level: 9
+        priceOfLevelUp: 2092.7278
+        value: 1.8034737
+      - level: 10
+        priceOfLevelUp: 3557.6372
+        value: 1.7313347
+      - level: 11
+        priceOfLevelUp: 6047.9834
+        value: 1.6620812
+      - level: 12
+        priceOfLevelUp: 10281.571
+        value: 1.5955979
+      - level: 13
+        priceOfLevelUp: 17478.674
+        value: 1.5317739
+      - level: 14
+        priceOfLevelUp: 29713.746
+        value: 1.4705031
+      - level: 15
+        priceOfLevelUp: 50513.367
+        value: 1.4116828
+      - level: 16
+        priceOfLevelUp: 85872.73
+        value: 1.3552154
+      - level: 17
+        priceOfLevelUp: 145983.64
+        value: 1.3010068
+      - level: 18
+        priceOfLevelUp: 248172.19
+        value: 1.2489666
+      - level: 19
+        priceOfLevelUp: 421892.75
+        value: 1.1990079
+      - level: 20
+        priceOfLevelUp: 717217.7
+        value: 1.1510475
+      - level: 21
+        priceOfLevelUp: 1219270.1
+        value: 1.1050056
+      - level: 22
+        priceOfLevelUp: 2072759.2
+        value: 1.0608053
+      - level: 23
+        priceOfLevelUp: 3523690.8
+        value: 1.018373
+      - level: 24
+        priceOfLevelUp: 5990274.5
+        value: 0.9776381
+      - level: 25
+        priceOfLevelUp: 10183467
+        value: 0.93853265
+      - level: 26
+        priceOfLevelUp: 17311894
+        value: 0.90099126
+      - level: 27
+        priceOfLevelUp: 29430222
+        value: 0.8649516
+      - level: 28
+        priceOfLevelUp: 50031380
+        value: 0.8303535
+      - level: 29
+        priceOfLevelUp: 85053340
+        value: 0.7971394
+      - level: 30
+        priceOfLevelUp: 144590690
+        value: 0.7652538
+      - level: 31
+        priceOfLevelUp: 245804180
+        value: 0.73464364
+      - level: 32
+        priceOfLevelUp: 417867140
+        value: 0.7052579
+      - level: 33
+        priceOfLevelUp: 710374140
+        value: 0.6770475
+      - level: 34
+        priceOfLevelUp: 1.2076361e+9
+        value: 0.64996564
+      - level: 35
+        priceOfLevelUp: 2.0529814e+9
+        value: 0.623967
+      - level: 36
+        priceOfLevelUp: 3.4900682e+9
+        value: 0.59900826
+      - level: 37
+        priceOfLevelUp: 5.9331164e+9
+        value: 0.5750479
+      - level: 38
+        priceOfLevelUp: 1.0086298e+10
+        value: 0.552046
+      - level: 39
+        priceOfLevelUp: 1.7146708e+10
+        value: 0.52996415
+      - level: 40
+        priceOfLevelUp: 2.9149403e+10
+        value: 0.5087656
+      - level: 41
+        priceOfLevelUp: 4.9553986e+10
+        value: 0.48841494
+      - level: 42
+        priceOfLevelUp: 8.4241785e+10
+        value: 0.46887833
+      - level: 43
+        priceOfLevelUp: 1.4321104e+11
+        value: 0.4501232
+      - level: 44
+        priceOfLevelUp: 2.4345875e+11
+        value: 0.43211824
+      - level: 45
+        priceOfLevelUp: 4.138799e+11
+        value: 0.4148335
+      - level: 46
+        priceOfLevelUp: 7.035958e+11
+        value: 0.39824015
+      - level: 47
+        priceOfLevelUp: 1.196113e+12
+        value: 0.38231057
+      - level: 48
+        priceOfLevelUp: 2.033392e+12
+        value: 0.36701813
+      - level: 49
+        priceOfLevelUp: 3.4567668e+12
+        value: 0.3523374
+      - level: 50
+        priceOfLevelUp: 5.8765035e+12
+        value: 0.33824387
+      - level: 51
+        priceOfLevelUp: 9.990056e+12
+        value: 0.32471412
+      - level: 52
+        priceOfLevelUp: 1.6983096e+13
+        value: 0.31172556
+      - level: 53
+        priceOfLevelUp: 2.8871263e+13
+        value: 0.2992565
+      - level: 54
+        priceOfLevelUp: 4.908115e+13
+        value: 0.28728625
+      - level: 55
+        priceOfLevelUp: 8.343796e+13
+        value: 0.2757948
+      - level: 56
+        priceOfLevelUp: 1.4184453e+14
+        value: 0.264763
+      - level: 57
+        priceOfLevelUp: 2.4113572e+14
+        value: 0.25417247
+      - level: 58
+        priceOfLevelUp: 4.0993074e+14
+        value: 0.24400556
+      - level: 59
+        priceOfLevelUp: 6.968823e+14
+        value: 0.23424534
+      - level: 60
+        priceOfLevelUp: 1.1846999e+15
+        value: 0.22487552
+      - level: 61
+        priceOfLevelUp: 2.0139898e+15
+        value: 0.2158805
+      - level: 62
+        priceOfLevelUp: 3.4237826e+15
+        value: 0.20724528
+      - level: 63
+        priceOfLevelUp: 5.8204307e+15
+        value: 0.19895546
+      - level: 64
+        priceOfLevelUp: 9.894733e+15
+        value: 0.19099724
+      - level: 65
+        priceOfLevelUp: 1.6821046e+16
+        value: 0.18335733
+      - level: 66
+        priceOfLevelUp: 2.8595778e+16
+        value: 0.17602304
+      - level: 67
+        priceOfLevelUp: 4.861283e+16
+        value: 0.16898212
+      - level: 68
+        priceOfLevelUp: 8.26418e+16
+        value: 0.16222283
+      - level: 69
+        priceOfLevelUp: 1.4049108e+17
+        value: 0.15573391
+      - level: 70
+        priceOfLevelUp: 2.3883483e+17
+        value: 0.14950456
+      - level: 71
+        priceOfLevelUp: 4.0601924e+17
+        value: 0.14352438
+      - level: 72
+        priceOfLevelUp: 6.902327e+17
+        value: 0.1377834
+      - level: 73
+        priceOfLevelUp: 1.1733956e+18
+        value: 0.13227205
+      - level: 74
+        priceOfLevelUp: 1.9947726e+18
+        value: 0.12698117
+      - level: 75
+        priceOfLevelUp: 3.3911138e+18
+        value: 0.12190192
+      - level: 76
+        priceOfLevelUp: 5.7648934e+18
+        value: 0.11702584
+      - level: 77
+        priceOfLevelUp: 9.800319e+18
+        value: 0.1123448
+      - level: 78
+        priceOfLevelUp: 1.6660542e+19
+        value: 0.10785101
+      - level: 79
+        priceOfLevelUp: 2.8322923e+19
+        value: 0.10353696
+      - level: 80
+        priceOfLevelUp: 4.814897e+19
+        value: 0.099395484
+      - level: 81
+        priceOfLevelUp: 8.185325e+19
+        value: 0.09541966
+      - level: 82
+        priceOfLevelUp: 1.3915052e+20
+        value: 0.09160288
+      - level: 83
+        priceOfLevelUp: 2.3655592e+20
+        value: 0.087938756
+      - level: 84
+        priceOfLevelUp: 4.0214506e+20
+        value: 0.0844212
+      - level: 85
+        priceOfLevelUp: 6.836466e+20
+        value: 0.08104435
+      - level: 86
+        priceOfLevelUp: 1.16219934e+21
+        value: 0.07780258
+      - level: 87
+        priceOfLevelUp: 1.9757389e+21
+        value: 0.074690476
+      - level: 88
+        priceOfLevelUp: 3.3587562e+21
+        value: 0.07170285
+      - level: 89
+        priceOfLevelUp: 5.709886e+21
+        value: 0.06883474
+      - level: 90
+        priceOfLevelUp: 9.706806e+21
+        value: 0.066081345
+      - level: 91
+        priceOfLevelUp: 1.6501571e+22
+        value: 0.06343809
+      - level: 92
+        priceOfLevelUp: 2.805267e+22
+        value: 0.060900565
+      - level: 93
+        priceOfLevelUp: 4.768954e+22
+        value: 0.058464542
+      - level: 94
+        priceOfLevelUp: 8.107222e+22
+        value: 0.05612596
+      - level: 95
+        priceOfLevelUp: 1.3782278e+23
+        value: 0.05388092
+      - level: 96
+        priceOfLevelUp: 2.3429873e+23
+        value: 0.051725686
+      - level: 97
+        priceOfLevelUp: 3.9830786e+23
+        value: 0.049656652
+      - level: 98
+        priceOfLevelUp: 6.771234e+23
+        value: 0.047670387
+      - level: 99
+        priceOfLevelUp: 1.1511098e+24
+        value: 0.04576357
+      - level: 100
+        priceOfLevelUp: 1.9568867e+24
+        value: 0.043933026
+      levelLockSettings: []
+      useDeltaType: 1
+      defaultUpgradeOpened: 1
+      defaultValue: 2.5
+      deltaValue: 0.96
+      defaultPrice: 30
+      deltaPrice: 1.7
+      maxLevel: 100
+      deltaType: 1
+      upgradeType: 0
+    - upgradeName: Power
+      valueType: N
+      upgradeImage: {fileID: 21300000, guid: 7164e06952f8ecd4bb3373d6dd548fd5, type: 3}
+      priceImage: {fileID: 0}
+      buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+      pulseButtonWhenAvailable: 0
+      useCustomButtonPrefab: 0
+      buttonPrefab: {fileID: 0}
+      timerOutputType: 1
+      timerAdditionalOutputString: 
+      buttonClickSound: 2
+      order: 0
+      overriveButtonOptions: 0
+      removeButtonOnMaxLevel: 0
+      upgrades:
+      - level: 1
+        priceOfLevelUp: 30
+        value: 15
+      - level: 2
+        priceOfLevelUp: 33
+        value: 16.050001
+      - level: 3
+        priceOfLevelUp: 36.300003
+        value: 17.173502
+      - level: 4
+        priceOfLevelUp: 39.930004
+        value: 18.375648
+      - level: 5
+        priceOfLevelUp: 43.923004
+        value: 19.661943
+      - level: 6
+        priceOfLevelUp: 48.315308
+        value: 21.038282
+      - level: 7
+        priceOfLevelUp: 53.14684
+        value: 22.510962
+      - level: 8
+        priceOfLevelUp: 58.46152
+        value: 24.086731
+      - level: 9
+        priceOfLevelUp: 64.30768
+        value: 25.772802
+      - level: 10
+        priceOfLevelUp: 70.73844
+        value: 27.5769
+      - level: 11
+        priceOfLevelUp: 77.812294
+        value: 29.507286
+      - level: 12
+        priceOfLevelUp: 85.59352
+        value: 31.572798
+      - level: 13
+        priceOfLevelUp: 94.15288
+        value: 33.782894
+      - level: 14
+        priceOfLevelUp: 103.56817
+        value: 36.147697
+      - level: 15
+        priceOfLevelUp: 113.92498
+        value: 38.67804
+      - level: 16
+        priceOfLevelUp: 125.31748
+        value: 41.385506
+      - level: 17
+        priceOfLevelUp: 137.84924
+        value: 44.28249
+      - level: 18
+        priceOfLevelUp: 151.63416
+        value: 47.382267
+      - level: 19
+        priceOfLevelUp: 166.79758
+        value: 50.699028
+      - level: 20
+        priceOfLevelUp: 183.47734
+        value: 54.247963
+      - level: 21
+        priceOfLevelUp: 201.82509
+        value: 58.045322
+      - level: 22
+        priceOfLevelUp: 222.0076
+        value: 62.1085
+      - level: 23
+        priceOfLevelUp: 244.20836
+        value: 66.4561
+      - level: 24
+        priceOfLevelUp: 268.6292
+        value: 71.10803
+      - level: 25
+        priceOfLevelUp: 295.49216
+        value: 76.085594
+      - level: 26
+        priceOfLevelUp: 325.04135
+        value: 81.41159
+      - level: 27
+        priceOfLevelUp: 357.5455
+        value: 87.110405
+      - level: 28
+        priceOfLevelUp: 393.30005
+        value: 93.20814
+      - level: 29
+        priceOfLevelUp: 432.63007
+        value: 99.73271
+      - level: 30
+        priceOfLevelUp: 475.8931
+        value: 106.71401
+      - level: 31
+        priceOfLevelUp: 523.4824
+        value: 114.18399
+      - level: 32
+        priceOfLevelUp: 575.8306
+        value: 122.17688
+      - level: 33
+        priceOfLevelUp: 633.4137
+        value: 130.72926
+      - level: 34
+        priceOfLevelUp: 696.7551
+        value: 139.88033
+      - level: 35
+        priceOfLevelUp: 766.43066
+        value: 149.67195
+      - level: 36
+        priceOfLevelUp: 843.0738
+        value: 160.14899
+      - level: 37
+        priceOfLevelUp: 927.3811
+        value: 171.35944
+      - level: 38
+        priceOfLevelUp: 1020.11926
+        value: 183.35461
+      - level: 39
+        priceOfLevelUp: 1122.1312
+        value: 196.18944
+      - level: 40
+        priceOfLevelUp: 1234.3444
+        value: 209.92271
+      - level: 41
+        priceOfLevelUp: 1357.7789
+        value: 224.61731
+      - level: 42
+        priceOfLevelUp: 1493.5568
+        value: 240.34052
+      - level: 43
+        priceOfLevelUp: 1642.9125
+        value: 257.1644
+      - level: 44
+        priceOfLevelUp: 1807.2037
+        value: 275.1659
+      - level: 45
+        priceOfLevelUp: 1987.9241
+        value: 294.42752
+      - level: 46
+        priceOfLevelUp: 2186.7168
+        value: 315.03748
+      - level: 47
+        priceOfLevelUp: 2405.3884
+        value: 337.0901
+      - level: 48
+        priceOfLevelUp: 2645.9272
+        value: 360.68643
+      - level: 49
+        priceOfLevelUp: 2910.52
+        value: 385.9345
+      - level: 50
+        priceOfLevelUp: 3201.572
+        value: 412.94995
+      - level: 51
+        priceOfLevelUp: 3521.7295
+        value: 441.85648
+      - level: 52
+        priceOfLevelUp: 3873.9023
+        value: 472.78644
+      - level: 53
+        priceOfLevelUp: 4261.293
+        value: 505.8815
+      - level: 54
+        priceOfLevelUp: 4687.4224
+        value: 541.2932
+      - level: 55
+        priceOfLevelUp: 5156.1646
+        value: 579.1838
+      - level: 56
+        priceOfLevelUp: 5671.7812
+        value: 619.7267
+      - level: 57
+        priceOfLevelUp: 6238.959
+        value: 663.1076
+      - level: 58
+        priceOfLevelUp: 6862.8555
+        value: 709.52515
+      - level: 59
+        priceOfLevelUp: 7549.141
+        value: 759.19196
+      - level: 60
+        priceOfLevelUp: 8304.056
+        value: 812.33545
+      - level: 61
+        priceOfLevelUp: 9134.461
+        value: 869.199
+      - level: 62
+        priceOfLevelUp: 10047.907
+        value: 930.0429
+      - level: 63
+        priceOfLevelUp: 11052.698
+        value: 995.14594
+      - level: 64
+        priceOfLevelUp: 12157.969
+        value: 1064.8063
+      - level: 65
+        priceOfLevelUp: 13373.766
+        value: 1139.3428
+      - level: 66
+        priceOfLevelUp: 14711.143
+        value: 1219.0968
+      - level: 67
+        priceOfLevelUp: 16182.257
+        value: 1304.4336
+      - level: 68
+        priceOfLevelUp: 17800.482
+        value: 1395.7441
+      - level: 69
+        priceOfLevelUp: 19580.531
+        value: 1493.4462
+      - level: 70
+        priceOfLevelUp: 21538.586
+        value: 1597.9875
+      - level: 71
+        priceOfLevelUp: 23692.445
+        value: 1709.8468
+      - level: 72
+        priceOfLevelUp: 26061.69
+        value: 1829.536
+      - level: 73
+        priceOfLevelUp: 28667.86
+        value: 1957.6036
+      - level: 74
+        priceOfLevelUp: 31534.646
+        value: 2094.6362
+      - level: 75
+        priceOfLevelUp: 34688.113
+        value: 2241.2607
+      - level: 76
+        priceOfLevelUp: 38156.92
+        value: 2398.149
+      - level: 77
+        priceOfLevelUp: 41972.613
+        value: 2566.0198
+      - level: 78
+        priceOfLevelUp: 46169.88
+        value: 2745.641
+      - level: 79
+        priceOfLevelUp: 50786.867
+        value: 2937.8362
+      - level: 80
+        priceOfLevelUp: 55865.555
+        value: 3143.4849
+      - level: 81
+        priceOfLevelUp: 61452.113
+        value: 3363.5288
+      - level: 82
+        priceOfLevelUp: 67597.33
+        value: 3598.9763
+      - level: 83
+        priceOfLevelUp: 74357.055
+        value: 3850.9048
+      - level: 84
+        priceOfLevelUp: 81792.766
+        value: 4120.4683
+      - level: 85
+        priceOfLevelUp: 89972.05
+        value: 4408.9014
+      - level: 86
+        priceOfLevelUp: 98969.25
+        value: 4717.525
+      - level: 87
+        priceOfLevelUp: 108866.19
+        value: 5047.752
+      - level: 88
+        priceOfLevelUp: 119752.8
+        value: 5401.0947
+      - level: 89
+        priceOfLevelUp: 131728.08
+        value: 5779.171
+      - level: 90
+        priceOfLevelUp: 144900.89
+        value: 6183.714
+      - level: 91
+        priceOfLevelUp: 159391
+        value: 6616.5737
+      - level: 92
+        priceOfLevelUp: 175330.1
+        value: 7079.7344
+      - level: 93
+        priceOfLevelUp: 192863.1
+        value: 7575.3164
+      - level: 94
+        priceOfLevelUp: 212149.42
+        value: 8105.5884
+      - level: 95
+        priceOfLevelUp: 233364.36
+        value: 8672.98
+      - level: 96
+        priceOfLevelUp: 256700.8
+        value: 9280.089
+      - level: 97
+        priceOfLevelUp: 282370.9
+        value: 9929.696
+      - level: 98
+        priceOfLevelUp: 310608
+        value: 10624.775
+      - level: 99
+        priceOfLevelUp: 341668.8
+        value: 11368.511
+      - level: 100
+        priceOfLevelUp: 375835.7
+        value: 12164.307
+      - level: 101
+        priceOfLevelUp: 413419.28
+        value: 13015.809
+      - level: 102
+        priceOfLevelUp: 454761.22
+        value: 13926.916
+      - level: 103
+        priceOfLevelUp: 500237.34
+        value: 14901.801
+      - level: 104
+        priceOfLevelUp: 550261.06
+        value: 15944.927
+      - level: 105
+        priceOfLevelUp: 605287.2
+        value: 17061.074
+      - level: 106
+        priceOfLevelUp: 665815.94
+        value: 18255.35
+      - level: 107
+        priceOfLevelUp: 732397.56
+        value: 19533.225
+      - level: 108
+        priceOfLevelUp: 805637.4
+        value: 20900.55
+      - level: 109
+        priceOfLevelUp: 886201.06
+        value: 22363.592
+      - level: 110
+        priceOfLevelUp: 974821.2
+        value: 23929.045
+      - level: 111
+        priceOfLevelUp: 1072303.4
+        value: 25604.078
+      - level: 112
+        priceOfLevelUp: 1179533.6
+        value: 27396.365
+      - level: 113
+        priceOfLevelUp: 1297487.1
+        value: 29314.113
+      - level: 114
+        priceOfLevelUp: 1427235.9
+        value: 31366.102
+      - level: 115
+        priceOfLevelUp: 1569959.4
+        value: 33561.73
+      - level: 116
+        priceOfLevelUp: 1726955.4
+        value: 35911.055
+      - level: 117
+        priceOfLevelUp: 1899651
+        value: 38424.83
+      - level: 118
+        priceOfLevelUp: 2089616.2
+        value: 41114.566
+      - level: 119
+        priceOfLevelUp: 2298577.8
+        value: 43992.59
+      - level: 120
+        priceOfLevelUp: 2528435.5
+        value: 47072.074
+      - level: 121
+        priceOfLevelUp: 2781279.5
+        value: 50367.12
+      - level: 122
+        priceOfLevelUp: 3059407.2
+        value: 53892.824
+      - level: 123
+        priceOfLevelUp: 3365348.2
+        value: 57665.324
+      - level: 124
+        priceOfLevelUp: 3701883
+        value: 61701.9
+      - level: 125
+        priceOfLevelUp: 4072071.5
+        value: 66021.03
+      - level: 126
+        priceOfLevelUp: 4479278.5
+        value: 70642.516
+      - level: 127
+        priceOfLevelUp: 4927206.5
+        value: 75587.49
+      - level: 128
+        priceOfLevelUp: 5419927.5
+        value: 80878.62
+      - level: 129
+        priceOfLevelUp: 5961920
+        value: 86540.125
+      - level: 130
+        priceOfLevelUp: 6558112.5
+        value: 92597.94
+      - level: 131
+        priceOfLevelUp: 7213924
+        value: 99079.805
+      - level: 132
+        priceOfLevelUp: 7935316
+        value: 106015.39
+      - level: 133
+        priceOfLevelUp: 8728848
+        value: 113436.48
+      - level: 134
+        priceOfLevelUp: 9601733
+        value: 121377.03
+      - level: 135
+        priceOfLevelUp: 10561907
+        value: 129873.43
+      - level: 136
+        priceOfLevelUp: 11618097
+        value: 138964.58
+      - level: 137
+        priceOfLevelUp: 12779908
+        value: 148692.11
+      - level: 138
+        priceOfLevelUp: 14057899
+        value: 159100.56
+      - level: 139
+        priceOfLevelUp: 15463689
+        value: 170237.61
+      - level: 140
+        priceOfLevelUp: 17010058
+        value: 182154.25
+      - level: 141
+        priceOfLevelUp: 18711064
+        value: 194905.06
+      - level: 142
+        priceOfLevelUp: 20582172
+        value: 208548.42
+      - level: 143
+        priceOfLevelUp: 22640388
+        value: 223146.83
+      - level: 144
+        priceOfLevelUp: 24904428
+        value: 238767.11
+      - level: 145
+        priceOfLevelUp: 27394872
+        value: 255480.81
+      - level: 146
+        priceOfLevelUp: 30134358
+        value: 273364.5
+      - level: 147
+        priceOfLevelUp: 33147796
+        value: 292500.03
+      - level: 148
+        priceOfLevelUp: 36462576
+        value: 312975.03
+      - level: 149
+        priceOfLevelUp: 40108830
+        value: 334883.3
+      - level: 150
+        priceOfLevelUp: 44119720
+        value: 358325.16
+      - level: 151
+        priceOfLevelUp: 48531692
+        value: 383407.94
+      - level: 152
+        priceOfLevelUp: 53384864
+        value: 410246.5
+      - level: 153
+        priceOfLevelUp: 58723350
+        value: 438963.8
+      - level: 154
+        priceOfLevelUp: 64595684
+        value: 469691.28
+      - level: 155
+        priceOfLevelUp: 71055256
+        value: 502569.72
+      - level: 156
+        priceOfLevelUp: 78160780
+        value: 537749.56
+      - level: 157
+        priceOfLevelUp: 85976860
+        value: 575392.06
+      - level: 158
+        priceOfLevelUp: 94574560
+        value: 615669.6
+      - level: 159
+        priceOfLevelUp: 104032020
+        value: 658766.5
+      - level: 160
+        priceOfLevelUp: 114435220
+        value: 704880.2
+      - level: 161
+        priceOfLevelUp: 125878740
+        value: 754221.8
+      - level: 162
+        priceOfLevelUp: 138466620
+        value: 807017.4
+      - level: 163
+        priceOfLevelUp: 152313280
+        value: 863508.6
+      - level: 164
+        priceOfLevelUp: 167544600
+        value: 923954.3
+      - level: 165
+        priceOfLevelUp: 184299070
+        value: 988631.1
+      - level: 166
+        priceOfLevelUp: 202729000
+        value: 1057835.4
+      - level: 167
+        priceOfLevelUp: 223001890
+        value: 1131884
+      - level: 168
+        priceOfLevelUp: 245302100
+        value: 1211115.9
+      - level: 169
+        priceOfLevelUp: 269832300
+        value: 1295894
+      - level: 170
+        priceOfLevelUp: 296815520
+        value: 1386606.6
+      - level: 171
+        priceOfLevelUp: 326497120
+        value: 1483669.2
+      - level: 172
+        priceOfLevelUp: 359146800
+        value: 1587526.1
+      - level: 173
+        priceOfLevelUp: 395061500
+        value: 1698653.1
+      - level: 174
+        priceOfLevelUp: 434567680
+        value: 1817558.9
+      - level: 175
+        priceOfLevelUp: 478024450
+        value: 1944788.1
+      - level: 176
+        priceOfLevelUp: 525826900
+        value: 2080923.2
+      - level: 177
+        priceOfLevelUp: 578409600
+        value: 2226588
+      - level: 178
+        priceOfLevelUp: 636250560
+        value: 2382449.2
+      - level: 179
+        priceOfLevelUp: 699875650
+        value: 2549221
+      - level: 180
+        priceOfLevelUp: 769863230
+        value: 2727666.5
+      - level: 181
+        priceOfLevelUp: 846849600
+        value: 2918603.5
+      - level: 182
+        priceOfLevelUp: 931534600
+        value: 3122905.8
+      - level: 183
+        priceOfLevelUp: 1.02468806e+9
+        value: 3341509.2
+      - level: 184
+        priceOfLevelUp: 1.1271569e+9
+        value: 3575415
+      - level: 185
+        priceOfLevelUp: 1.2398726e+9
+        value: 3825694.5
+      - level: 186
+        priceOfLevelUp: 1.3638598e+9
+        value: 4093493
+      - level: 187
+        priceOfLevelUp: 1.5002459e+9
+        value: 4380038
+      - level: 188
+        priceOfLevelUp: 1.6502705e+9
+        value: 4686641
+      - level: 189
+        priceOfLevelUp: 1.8152975e+9
+        value: 5014706
+      - level: 190
+        priceOfLevelUp: 1.9968274e+9
+        value: 5365736
+      - level: 191
+        priceOfLevelUp: 2.1965102e+9
+        value: 5741337
+      - level: 192
+        priceOfLevelUp: 2.4161613e+9
+        value: 6143231
+      - level: 193
+        priceOfLevelUp: 2.6577774e+9
+        value: 6573258
+      - level: 194
+        priceOfLevelUp: 2.9235553e+9
+        value: 7033386
+      - level: 195
+        priceOfLevelUp: 3.215911e+9
+        value: 7525723.5
+      - level: 196
+        priceOfLevelUp: 3.5375022e+9
+        value: 8052525
+      - level: 197
+        priceOfLevelUp: 3.8912522e+9
+        value: 8616202
+      - level: 198
+        priceOfLevelUp: 4.2803773e+9
+        value: 9219337
+      - level: 199
+        priceOfLevelUp: 4.7084155e+9
+        value: 9864690
+      - level: 200
+        priceOfLevelUp: 5.1792573e+9
+        value: 10555219
+      - level: 201
+        priceOfLevelUp: 5.6971827e+9
+        value: 11294085
+      - level: 202
+        priceOfLevelUp: 6.2669015e+9
+        value: 12084671
+      - level: 203
+        priceOfLevelUp: 6.8935916e+9
+        value: 12930599
+      - level: 204
+        priceOfLevelUp: 7.5829514e+9
+        value: 13835742
+      - level: 205
+        priceOfLevelUp: 8.341246e+9
+        value: 14804244
+      - level: 206
+        priceOfLevelUp: 9.175371e+9
+        value: 15840542
+      - level: 207
+        priceOfLevelUp: 1.0092909e+10
+        value: 16949382
+      - level: 208
+        priceOfLevelUp: 1.11022e+10
+        value: 18135838
+      - level: 209
+        priceOfLevelUp: 1.2212421e+10
+        value: 19405348
+      - level: 210
+        priceOfLevelUp: 1.3433662e+10
+        value: 20763724
+      - level: 211
+        priceOfLevelUp: 1.4777029e+10
+        value: 22217186
+      - level: 212
+        priceOfLevelUp: 1.6254731e+10
+        value: 23772390
+      - level: 213
+        priceOfLevelUp: 1.7880205e+10
+        value: 25436458
+      - level: 214
+        priceOfLevelUp: 1.9668226e+10
+        value: 27217012
+      - level: 215
+        priceOfLevelUp: 2.163505e+10
+        value: 29122204
+      - level: 216
+        priceOfLevelUp: 2.3798555e+10
+        value: 31160760
+      - level: 217
+        priceOfLevelUp: 2.617841e+10
+        value: 33342016
+      - level: 218
+        priceOfLevelUp: 2.8796252e+10
+        value: 35675960
+      - level: 219
+        priceOfLevelUp: 3.1675877e+10
+        value: 38173276
+      - level: 220
+        priceOfLevelUp: 3.4843468e+10
+        value: 40845410
+      - level: 221
+        priceOfLevelUp: 3.8327816e+10
+        value: 43704588
+      - level: 222
+        priceOfLevelUp: 4.2160595e+10
+        value: 46763910
+      - level: 223
+        priceOfLevelUp: 4.637666e+10
+        value: 50037388
+      - level: 224
+        priceOfLevelUp: 5.1014324e+10
+        value: 53540010
+      - level: 225
+        priceOfLevelUp: 5.611576e+10
+        value: 57287812
+      - level: 226
+        priceOfLevelUp: 6.1727334e+10
+        value: 61297960
+      - level: 227
+        priceOfLevelUp: 6.790007e+10
+        value: 65588820
+      - level: 228
+        priceOfLevelUp: 7.4690085e+10
+        value: 70180040
+      - level: 229
+        priceOfLevelUp: 8.215909e+10
+        value: 75092650
+      - level: 230
+        priceOfLevelUp: 9.0375e+10
+        value: 80349140
+      - level: 231
+        priceOfLevelUp: 9.94125e+10
+        value: 85973580
+      - level: 232
+        priceOfLevelUp: 1.09353755e+11
+        value: 91991736
+      - level: 233
+        priceOfLevelUp: 1.2028913e+11
+        value: 98431160
+      - level: 234
+        priceOfLevelUp: 1.32318044e+11
+        value: 105321350
+      - level: 235
+        priceOfLevelUp: 1.4554985e+11
+        value: 112693860
+      - level: 236
+        priceOfLevelUp: 1.6010486e+11
+        value: 120582424
+      - level: 237
+        priceOfLevelUp: 1.7611534e+11
+        value: 129023210
+      - level: 238
+        priceOfLevelUp: 1.9372687e+11
+        value: 138054850
+      - level: 239
+        priceOfLevelUp: 2.1309958e+11
+        value: 147718690
+      - level: 240
+        priceOfLevelUp: 2.3440953e+11
+        value: 158058990
+      - level: 241
+        priceOfLevelUp: 2.5785047e+11
+        value: 169123120
+      - level: 242
+        priceOfLevelUp: 2.8363555e+11
+        value: 180961760
+      - level: 243
+        priceOfLevelUp: 3.119991e+11
+        value: 193629090
+      - level: 244
+        priceOfLevelUp: 3.4319902e+11
+        value: 207183140
+      - level: 245
+        priceOfLevelUp: 3.7751895e+11
+        value: 221685970
+      - level: 246
+        priceOfLevelUp: 4.1527083e+11
+        value: 237204000
+      - level: 247
+        priceOfLevelUp: 4.567979e+11
+        value: 253808290
+      - level: 248
+        priceOfLevelUp: 5.0247772e+11
+        value: 271574880
+      - level: 249
+        priceOfLevelUp: 5.527255e+11
+        value: 290585120
+      - level: 250
+        priceOfLevelUp: 6.0799805e+11
+        value: 310926100
+      - level: 251
+        priceOfLevelUp: 6.687979e+11
+        value: 332690980
+      - level: 252
+        priceOfLevelUp: 7.356777e+11
+        value: 355979330
+      - level: 253
+        priceOfLevelUp: 8.092455e+11
+        value: 380897920
+      - level: 254
+        priceOfLevelUp: 8.9017005e+11
+        value: 407560800
+      - level: 255
+        priceOfLevelUp: 9.791871e+11
+        value: 436090080
+      - level: 256
+        priceOfLevelUp: 1.07710585e+12
+        value: 466616400
+      - level: 257
+        priceOfLevelUp: 1.1848164e+12
+        value: 499279550
+      - level: 258
+        priceOfLevelUp: 1.303298e+12
+        value: 534229150
+      - level: 259
+        priceOfLevelUp: 1.4336279e+12
+        value: 571625200
+      - level: 260
+        priceOfLevelUp: 1.5769908e+12
+        value: 611639040
+      - level: 261
+        priceOfLevelUp: 1.7346898e+12
+        value: 654453760
+      - level: 262
+        priceOfLevelUp: 1.9081589e+12
+        value: 700265600
+      - level: 263
+        priceOfLevelUp: 2.0989747e+12
+        value: 749284200
+      - level: 264
+        priceOfLevelUp: 2.3088723e+12
+        value: 801734140
+      - level: 265
+        priceOfLevelUp: 2.5397599e+12
+        value: 857855550
+      - level: 266
+        priceOfLevelUp: 2.7937357e+12
+        value: 917905540
+      - level: 267
+        priceOfLevelUp: 3.0731094e+12
+        value: 982159000
+      - level: 268
+        priceOfLevelUp: 3.3804205e+12
+        value: 1.0509102e+9
+      - level: 269
+        priceOfLevelUp: 3.7184623e+12
+        value: 1.1244739e+9
+      - level: 270
+        priceOfLevelUp: 4.0903089e+12
+        value: 1.2031872e+9
+      - level: 271
+        priceOfLevelUp: 4.4993395e+12
+        value: 1.2874103e+9
+      - level: 272
+        priceOfLevelUp: 4.9492735e+12
+        value: 1.3775291e+9
+      - level: 273
+        priceOfLevelUp: 5.4442013e+12
+        value: 1.4739561e+9
+      - level: 274
+        priceOfLevelUp: 5.9886215e+12
+        value: 1.5771332e+9
+      - level: 275
+        priceOfLevelUp: 6.5874837e+12
+        value: 1.6875327e+9
+      - level: 276
+        priceOfLevelUp: 7.2462327e+12
+        value: 1.80566e+9
+      - level: 277
+        priceOfLevelUp: 7.970856e+12
+        value: 1.9320563e+9
+      - level: 278
+        priceOfLevelUp: 8.7679414e+12
+        value: 2.0673002e+9
+      - level: 279
+        priceOfLevelUp: 9.644736e+12
+        value: 2.2120113e+9
+      - level: 280
+        priceOfLevelUp: 1.060921e+13
+        value: 2.3668524e+9
+      - level: 281
+        priceOfLevelUp: 1.1670131e+13
+        value: 2.532532e+9
+      - level: 282
+        priceOfLevelUp: 1.2837144e+13
+        value: 2.7098094e+9
+      - level: 283
+        priceOfLevelUp: 1.4120859e+13
+        value: 2.8994964e+9
+      - level: 284
+        priceOfLevelUp: 1.5532945e+13
+        value: 3.1024612e+9
+      - level: 285
+        priceOfLevelUp: 1.708624e+13
+        value: 3.3196337e+9
+      - level: 286
+        priceOfLevelUp: 1.8794865e+13
+        value: 3.5520082e+9
+      - level: 287
+        priceOfLevelUp: 2.0674351e+13
+        value: 3.8006492e+9
+      - level: 288
+        priceOfLevelUp: 2.2741787e+13
+        value: 4.066695e+9
+      - level: 289
+        priceOfLevelUp: 2.5015968e+13
+        value: 4.3513636e+9
+      - level: 290
+        priceOfLevelUp: 2.7517564e+13
+        value: 4.655959e+9
+      - level: 291
+        priceOfLevelUp: 3.026932e+13
+        value: 4.981876e+9
+      - level: 292
+        priceOfLevelUp: 3.3296254e+13
+        value: 5.330608e+9
+      - level: 293
+        priceOfLevelUp: 3.662588e+13
+        value: 5.703751e+9
+      - level: 294
+        priceOfLevelUp: 4.028847e+13
+        value: 6.103014e+9
+      - level: 295
+        priceOfLevelUp: 4.4317314e+13
+        value: 6.530225e+9
+      - level: 296
+        priceOfLevelUp: 4.874905e+13
+        value: 6.9873413e+9
+      - level: 297
+        priceOfLevelUp: 5.3623954e+13
+        value: 7.4764554e+9
+      - level: 298
+        priceOfLevelUp: 5.898635e+13
+        value: 7.9998075e+9
+      - level: 299
+        priceOfLevelUp: 6.488499e+13
+        value: 8.5597947e+9
+      - level: 300
+        priceOfLevelUp: 7.137349e+13
+        value: 9.158981e+9
+      - level: 301
+        priceOfLevelUp: 7.8510845e+13
+        value: 9.80011e+9
+      - level: 302
+        priceOfLevelUp: 8.636193e+13
+        value: 1.0486118e+10
+      - level: 303
+        priceOfLevelUp: 9.4998125e+13
+        value: 1.1220147e+10
+      - level: 304
+        priceOfLevelUp: 1.0449794e+14
+        value: 1.2005558e+10
+      - level: 305
+        priceOfLevelUp: 1.1494774e+14
+        value: 1.2845947e+10
+      - level: 306
+        priceOfLevelUp: 1.264425e+14
+        value: 1.3745164e+10
+      - level: 307
+        priceOfLevelUp: 1.3908676e+14
+        value: 1.4707327e+10
+      - level: 308
+        priceOfLevelUp: 1.5299544e+14
+        value: 1.573684e+10
+      - level: 309
+        priceOfLevelUp: 1.6829499e+14
+        value: 1.6838422e+10
+      - level: 310
+        priceOfLevelUp: 1.8512448e+14
+        value: 1.8017112e+10
+      - level: 311
+        priceOfLevelUp: 2.0363695e+14
+        value: 1.927831e+10
+      - level: 312
+        priceOfLevelUp: 2.2400063e+14
+        value: 2.0627792e+10
+      - level: 313
+        priceOfLevelUp: 2.4640071e+14
+        value: 2.2071738e+10
+      - level: 314
+        priceOfLevelUp: 2.710408e+14
+        value: 2.361676e+10
+      - level: 315
+        priceOfLevelUp: 2.9814485e+14
+        value: 2.5269936e+10
+      - level: 316
+        priceOfLevelUp: 3.2795937e+14
+        value: 2.7038833e+10
+      - level: 317
+        priceOfLevelUp: 3.6075534e+14
+        value: 2.8931553e+10
+      - level: 318
+        priceOfLevelUp: 3.9683085e+14
+        value: 3.0956763e+10
+      - level: 319
+        priceOfLevelUp: 4.3651397e+14
+        value: 3.3123736e+10
+      - level: 320
+        priceOfLevelUp: 4.8016536e+14
+        value: 3.54424e+10
+      - level: 321
+        priceOfLevelUp: 5.281819e+14
+        value: 3.7923373e+10
+      - level: 322
+        priceOfLevelUp: 5.810001e+14
+        value: 4.057801e+10
+      - level: 323
+        priceOfLevelUp: 6.391001e+14
+        value: 4.3418472e+10
+      - level: 324
+        priceOfLevelUp: 7.030102e+14
+        value: 4.6457766e+10
+      - level: 325
+        priceOfLevelUp: 7.7331114e+14
+        value: 4.9709814e+10
+      - level: 326
+        priceOfLevelUp: 8.5064237e+14
+        value: 5.31895e+10
+      - level: 327
+        priceOfLevelUp: 9.357066e+14
+        value: 5.691277e+10
+      - level: 328
+        priceOfLevelUp: 1.0292773e+15
+        value: 6.0896666e+10
+      - level: 329
+        priceOfLevelUp: 1.132205e+15
+        value: 6.515944e+10
+      - level: 330
+        priceOfLevelUp: 1.2454255e+15
+        value: 6.97206e+10
+      - level: 331
+        priceOfLevelUp: 1.3699681e+15
+        value: 7.460105e+10
+      - level: 332
+        priceOfLevelUp: 1.506965e+15
+        value: 7.982313e+10
+      - level: 333
+        priceOfLevelUp: 1.6576616e+15
+        value: 8.541075e+10
+      - level: 334
+        priceOfLevelUp: 1.8234277e+15
+        value: 9.13895e+10
+      - level: 335
+        priceOfLevelUp: 2.0057705e+15
+        value: 9.778677e+10
+      - level: 336
+        priceOfLevelUp: 2.2063477e+15
+        value: 1.0463185e+11
+      - level: 337
+        priceOfLevelUp: 2.4269824e+15
+        value: 1.1195609e+11
+      - level: 338
+        priceOfLevelUp: 2.6696808e+15
+        value: 1.1979302e+11
+      - level: 339
+        priceOfLevelUp: 2.9366487e+15
+        value: 1.2817854e+11
+      - level: 340
+        priceOfLevelUp: 3.230314e+15
+        value: 1.3715104e+11
+      - level: 341
+        priceOfLevelUp: 3.5533454e+15
+        value: 1.4675162e+11
+      - level: 342
+        priceOfLevelUp: 3.9086798e+15
+        value: 1.5702426e+11
+      - level: 343
+        priceOfLevelUp: 4.299548e+15
+        value: 1.6801594e+11
+      - level: 344
+        priceOfLevelUp: 4.729503e+15
+        value: 1.7977708e+11
+      - level: 345
+        priceOfLevelUp: 5.202453e+15
+        value: 1.9236148e+11
+      - level: 346
+        priceOfLevelUp: 5.7226987e+15
+        value: 2.058268e+11
+      - level: 347
+        priceOfLevelUp: 6.294969e+15
+        value: 2.2023468e+11
+      - level: 348
+        priceOfLevelUp: 6.9244655e+15
+        value: 2.3565112e+11
+      - level: 349
+        priceOfLevelUp: 7.6169124e+15
+        value: 2.521467e+11
+      - level: 350
+        priceOfLevelUp: 8.378604e+15
+        value: 2.6979698e+11
+      - level: 351
+        priceOfLevelUp: 9.216465e+15
+        value: 2.8868277e+11
+      - level: 352
+        priceOfLevelUp: 1.0138111e+16
+        value: 3.088906e+11
+      - level: 353
+        priceOfLevelUp: 1.1151923e+16
+        value: 3.30513e+11
+      - level: 354
+        priceOfLevelUp: 1.2267115e+16
+        value: 3.536489e+11
+      - level: 355
+        priceOfLevelUp: 1.3493827e+16
+        value: 3.784043e+11
+      - level: 356
+        priceOfLevelUp: 1.4843209e+16
+        value: 4.0489265e+11
+      - level: 357
+        priceOfLevelUp: 1.6327531e+16
+        value: 4.3323517e+11
+      - level: 358
+        priceOfLevelUp: 1.7960285e+16
+        value: 4.6356162e+11
+      - level: 359
+        priceOfLevelUp: 1.9756313e+16
+        value: 4.96011e+11
+      - level: 360
+        priceOfLevelUp: 2.1731946e+16
+        value: 5.307318e+11
+      - level: 361
+        priceOfLevelUp: 2.3905142e+16
+        value: 5.678831e+11
+      - level: 362
+        priceOfLevelUp: 2.6295654e+16
+        value: 6.0763485e+11
+      - level: 363
+        priceOfLevelUp: 2.8925222e+16
+        value: 6.5016935e+11
+      - level: 364
+        priceOfLevelUp: 3.1817743e+16
+        value: 6.956812e+11
+      - level: 365
+        priceOfLevelUp: 3.499952e+16
+        value: 7.44379e+11
+      - level: 366
+        priceOfLevelUp: 3.8499473e+16
+        value: 7.9648555e+11
+      - level: 367
+        priceOfLevelUp: 4.2349417e+16
+        value: 8.522395e+11
+      - level: 368
+        priceOfLevelUp: 4.6584366e+16
+        value: 9.1189635e+11
+      - level: 369
+        priceOfLevelUp: 5.12428e+16
+        value: 9.757291e+11
+      - level: 370
+        priceOfLevelUp: 5.636708e+16
+        value: 1.0440303e+12
+      - level: 371
+        priceOfLevelUp: 6.200379e+16
+        value: 1.1171124e+12
+      - level: 372
+        priceOfLevelUp: 6.8204175e+16
+        value: 1.1953103e+12
+      - level: 373
+        priceOfLevelUp: 7.502459e+16
+        value: 1.2789821e+12
+      - level: 374
+        priceOfLevelUp: 8.252705e+16
+        value: 1.368511e+12
+      - level: 375
+        priceOfLevelUp: 9.077975e+16
+        value: 1.4643068e+12
+      - level: 376
+        priceOfLevelUp: 9.985774e+16
+        value: 1.5668083e+12
+      - level: 377
+        priceOfLevelUp: 1.0984351e+17
+        value: 1.6764851e+12
+      - level: 378
+        priceOfLevelUp: 1.2082787e+17
+        value: 1.7938391e+12
+      - level: 379
+        priceOfLevelUp: 1.3291066e+17
+        value: 1.9194079e+12
+      - level: 380
+        priceOfLevelUp: 1.4620173e+17
+        value: 2.0537665e+12
+      - level: 381
+        priceOfLevelUp: 1.608219e+17
+        value: 2.1975303e+12
+      - level: 382
+        priceOfLevelUp: 1.769041e+17
+        value: 2.3513575e+12
+      - level: 383
+        priceOfLevelUp: 1.945945e+17
+        value: 2.5159527e+12
+      - level: 384
+        priceOfLevelUp: 2.1405395e+17
+        value: 2.6920695e+12
+      - level: 385
+        priceOfLevelUp: 2.3545937e+17
+        value: 2.8805143e+12
+      - level: 386
+        priceOfLevelUp: 2.590053e+17
+        value: 3.0821507e+12
+      - level: 387
+        priceOfLevelUp: 2.8490587e+17
+        value: 3.2979013e+12
+      - level: 388
+        priceOfLevelUp: 3.1339644e+17
+        value: 3.5287545e+12
+      - level: 389
+        priceOfLevelUp: 3.447361e+17
+        value: 3.7757678e+12
+      - level: 390
+        priceOfLevelUp: 3.792097e+17
+        value: 4.0400716e+12
+      - level: 391
+        priceOfLevelUp: 4.171307e+17
+        value: 4.3228767e+12
+      - level: 392
+        priceOfLevelUp: 4.5884376e+17
+        value: 4.6254785e+12
+      - level: 393
+        priceOfLevelUp: 5.0472813e+17
+        value: 4.9492625e+12
+      - level: 394
+        priceOfLevelUp: 5.5520094e+17
+        value: 5.295711e+12
+      - level: 395
+        priceOfLevelUp: 6.107211e+17
+        value: 5.666411e+12
+      - level: 396
+        priceOfLevelUp: 6.717932e+17
+        value: 6.06306e+12
+      - level: 397
+        priceOfLevelUp: 7.3897256e+17
+        value: 6.487474e+12
+      - level: 398
+        priceOfLevelUp: 8.128698e+17
+        value: 6.941598e+12
+      - level: 399
+        priceOfLevelUp: 8.941569e+17
+        value: 7.42751e+12
+      - level: 400
+        priceOfLevelUp: 9.835725e+17
+        value: 7.947436e+12
+      - level: 401
+        priceOfLevelUp: 1.08192975e+18
+        value: 8.503757e+12
+      - level: 402
+        priceOfLevelUp: 1.1901228e+18
+        value: 9.09902e+12
+      - level: 403
+        priceOfLevelUp: 1.3091352e+18
+        value: 9.735953e+12
+      - level: 404
+        priceOfLevelUp: 1.4400487e+18
+        value: 1.0417469e+13
+      - level: 405
+        priceOfLevelUp: 1.5840536e+18
+        value: 1.1146693e+13
+      - level: 406
+        priceOfLevelUp: 1.7424589e+18
+        value: 1.1926962e+13
+      - level: 407
+        priceOfLevelUp: 1.916705e+18
+        value: 1.2761849e+13
+      - level: 408
+        priceOfLevelUp: 2.1083754e+18
+        value: 1.3655181e+13
+      - level: 409
+        priceOfLevelUp: 2.319213e+18
+        value: 1.4611044e+13
+      - level: 410
+        priceOfLevelUp: 2.5511342e+18
+        value: 1.5633818e+13
+      - level: 411
+        priceOfLevelUp: 2.8062478e+18
+        value: 1.6728186e+13
+      - level: 412
+        priceOfLevelUp: 3.0868728e+18
+        value: 1.7899159e+13
+      - level: 413
+        priceOfLevelUp: 3.39556e+18
+        value: 1.9152102e+13
+      - level: 414
+        priceOfLevelUp: 3.735116e+18
+        value: 2.0492749e+13
+      - level: 415
+        priceOfLevelUp: 4.108628e+18
+        value: 2.1927245e+13
+      - level: 416
+        priceOfLevelUp: 4.5194906e+18
+        value: 2.346215e+13
+      - level: 417
+        priceOfLevelUp: 4.97144e+18
+        value: 2.5104503e+13
+      - level: 418
+        priceOfLevelUp: 5.4685844e+18
+        value: 2.686182e+13
+      - level: 419
+        priceOfLevelUp: 6.015443e+18
+        value: 2.874215e+13
+      - level: 420
+        priceOfLevelUp: 6.616987e+18
+        value: 3.07541e+13
+      - level: 421
+        priceOfLevelUp: 7.2786856e+18
+        value: 3.2906888e+13
+      - level: 422
+        priceOfLevelUp: 8.0065546e+18
+        value: 3.5210373e+13
+      - level: 423
+        priceOfLevelUp: 8.8072096e+18
+        value: 3.76751e+13
+      - level: 424
+        priceOfLevelUp: 9.687932e+18
+        value: 4.0312358e+13
+      - level: 425
+        priceOfLevelUp: 1.0656725e+19
+        value: 4.3134227e+13
+      - level: 426
+        priceOfLevelUp: 1.1722397e+19
+        value: 4.6153626e+13
+      - level: 427
+        priceOfLevelUp: 1.2894638e+19
+        value: 4.938438e+13
+      - level: 428
+        priceOfLevelUp: 1.4184102e+19
+        value: 5.284129e+13
+      - level: 429
+        priceOfLevelUp: 1.5602512e+19
+        value: 5.6540183e+13
+      - level: 430
+        priceOfLevelUp: 1.7162763e+19
+        value: 6.0498e+13
+      - level: 431
+        priceOfLevelUp: 1.8879041e+19
+        value: 6.473286e+13
+      - level: 432
+        priceOfLevelUp: 2.0766945e+19
+        value: 6.9264166e+13
+      - level: 433
+        priceOfLevelUp: 2.284364e+19
+        value: 7.411266e+13
+      - level: 434
+        priceOfLevelUp: 2.5128003e+19
+        value: 7.930056e+13
+      - level: 435
+        priceOfLevelUp: 2.7640805e+19
+        value: 8.485159e+13
+      - level: 436
+        priceOfLevelUp: 3.0404887e+19
+        value: 9.079121e+13
+      - level: 437
+        priceOfLevelUp: 3.3445378e+19
+        value: 9.71466e+13
+      - level: 438
+        priceOfLevelUp: 3.6789916e+19
+        value: 1.03946866e+14
+      - level: 439
+        priceOfLevelUp: 4.0468906e+19
+        value: 1.1122315e+14
+      - level: 440
+        priceOfLevelUp: 4.45158e+19
+        value: 1.1900878e+14
+      - level: 441
+        priceOfLevelUp: 4.896738e+19
+        value: 1.273394e+14
+      - level: 442
+        priceOfLevelUp: 5.3864116e+19
+        value: 1.36253165e+14
+      - level: 443
+        priceOfLevelUp: 5.925053e+19
+        value: 1.457909e+14
+      - level: 444
+        priceOfLevelUp: 6.5175584e+19
+        value: 1.5599627e+14
+      - level: 445
+        priceOfLevelUp: 7.1693146e+19
+        value: 1.66916e+14
+      - level: 446
+        priceOfLevelUp: 7.886246e+19
+        value: 1.7860014e+14
+      - level: 447
+        priceOfLevelUp: 8.674871e+19
+        value: 1.9110215e+14
+      - level: 448
+        priceOfLevelUp: 9.542359e+19
+        value: 2.0447932e+14
+      - level: 449
+        priceOfLevelUp: 1.0496594e+20
+        value: 2.1879288e+14
+      - level: 450
+        priceOfLevelUp: 1.1546254e+20
+        value: 2.341084e+14
+      - level: 451
+        priceOfLevelUp: 1.270088e+20
+        value: 2.50496e+14
+      - level: 452
+        priceOfLevelUp: 1.3970967e+20
+        value: 2.6803076e+14
+      - level: 453
+        priceOfLevelUp: 1.5368066e+20
+        value: 2.8679292e+14
+      - level: 454
+        priceOfLevelUp: 1.6904873e+20
+        value: 3.068684e+14
+      - level: 455
+        priceOfLevelUp: 1.859536e+20
+        value: 3.2834924e+14
+      - level: 456
+        priceOfLevelUp: 2.0454896e+20
+        value: 3.513337e+14
+      - level: 457
+        priceOfLevelUp: 2.2500387e+20
+        value: 3.7592705e+14
+      - level: 458
+        priceOfLevelUp: 2.4750425e+20
+        value: 4.0224197e+14
+      - level: 459
+        priceOfLevelUp: 2.7225468e+20
+        value: 4.3039894e+14
+      - level: 460
+        priceOfLevelUp: 2.9948016e+20
+        value: 4.6052686e+14
+      - level: 461
+        priceOfLevelUp: 3.2942818e+20
+        value: 4.9276378e+14
+      - level: 462
+        priceOfLevelUp: 3.62371e+20
+        value: 5.272573e+14
+      - level: 463
+        priceOfLevelUp: 3.986081e+20
+        value: 5.641653e+14
+      - level: 464
+        priceOfLevelUp: 4.3846895e+20
+        value: 6.036569e+14
+      - level: 465
+        priceOfLevelUp: 4.8231585e+20
+        value: 6.4591295e+14
+      - level: 466
+        priceOfLevelUp: 5.3054743e+20
+        value: 6.911269e+14
+      - level: 467
+        priceOfLevelUp: 5.836022e+20
+        value: 7.395058e+14
+      - level: 468
+        priceOfLevelUp: 6.4196244e+20
+        value: 7.912713e+14
+      - level: 469
+        priceOfLevelUp: 7.061587e+20
+        value: 8.466603e+14
+      - level: 470
+        priceOfLevelUp: 7.767746e+20
+        value: 9.059265e+14
+      - level: 471
+        priceOfLevelUp: 8.5445205e+20
+        value: 9.6934144e+14
+      - level: 472
+        priceOfLevelUp: 9.398972e+20
+        value: 1.0371954e+15
+      - level: 473
+        priceOfLevelUp: 1.033887e+21
+        value: 1.10979915e+15
+      - level: 474
+        priceOfLevelUp: 1.1372757e+21
+        value: 1.1874852e+15
+      - level: 475
+        priceOfLevelUp: 1.2510034e+21
+        value: 1.2706092e+15
+      - level: 476
+        priceOfLevelUp: 1.3761037e+21
+        value: 1.3595518e+15
+      - level: 477
+        priceOfLevelUp: 1.5137142e+21
+        value: 1.4547205e+15
+      - level: 478
+        priceOfLevelUp: 1.6650856e+21
+        value: 1.556551e+15
+      - level: 479
+        priceOfLevelUp: 1.8315943e+21
+        value: 1.6655097e+15
+      - level: 480
+        priceOfLevelUp: 2.0147537e+21
+        value: 1.7820955e+15
+      - level: 481
+        priceOfLevelUp: 2.2162291e+21
+        value: 1.9068423e+15
+      - level: 482
+        priceOfLevelUp: 2.4378522e+21
+        value: 2.0403213e+15
+      - level: 483
+        priceOfLevelUp: 2.6816374e+21
+        value: 2.1831438e+15
+      - level: 484
+        priceOfLevelUp: 2.9498012e+21
+        value: 2.335964e+15
+      - level: 485
+        priceOfLevelUp: 3.244781e+21
+        value: 2.4994817e+15
+      - level: 486
+        priceOfLevelUp: 3.5692595e+21
+        value: 2.6744455e+15
+      - level: 487
+        priceOfLevelUp: 3.9261855e+21
+        value: 2.861657e+15
+      - level: 488
+        priceOfLevelUp: 4.3188043e+21
+        value: 3.0619732e+15
+      - level: 489
+        priceOfLevelUp: 4.7506846e+21
+        value: 3.276311e+15
+      - level: 490
+        priceOfLevelUp: 5.225753e+21
+        value: 3.5056532e+15
+      - level: 491
+        priceOfLevelUp: 5.7483287e+21
+        value: 3.7510491e+15
+      - level: 492
+        priceOfLevelUp: 6.3231614e+21
+        value: 4.0136228e+15
+      - level: 493
+        priceOfLevelUp: 6.955478e+21
+        value: 4.2945765e+15
+      - level: 494
+        priceOfLevelUp: 7.651026e+21
+        value: 4.5951973e+15
+      - level: 495
+        priceOfLevelUp: 8.416129e+21
+        value: 4.9168614e+15
+      - level: 496
+        priceOfLevelUp: 9.257742e+21
+        value: 5.261042e+15
+      - level: 497
+        priceOfLevelUp: 1.0183517e+22
+        value: 5.629315e+15
+      - level: 498
+        priceOfLevelUp: 1.1201868e+22
+        value: 6.0233674e+15
+      - level: 499
+        priceOfLevelUp: 1.2322056e+22
+        value: 6.445003e+15
+      - level: 500
+        priceOfLevelUp: 1.3554261e+22
+        value: 6.896154e+15
+      - level: 501
+        priceOfLevelUp: 1.4909688e+22
+        value: 7.378885e+15
+      - level: 502
+        priceOfLevelUp: 1.6400656e+22
+        value: 7.895407e+15
+      - level: 503
+        priceOfLevelUp: 1.8040723e+22
+        value: 8.448087e+15
+      - level: 504
+        priceOfLevelUp: 1.9844794e+22
+        value: 9.039453e+15
+      - level: 505
+        priceOfLevelUp: 2.1829276e+22
+        value: 9.672215e+15
+      - level: 506
+        priceOfLevelUp: 2.4012202e+22
+        value: 1.0349271e+16
+      - level: 507
+        priceOfLevelUp: 2.6413425e+22
+        value: 1.1073721e+16
+      - level: 508
+        priceOfLevelUp: 2.9054768e+22
+        value: 1.1848882e+16
+      - level: 509
+        priceOfLevelUp: 3.1960245e+22
+        value: 1.2678303e+16
+      - level: 510
+        priceOfLevelUp: 3.515627e+22
+        value: 1.3565785e+16
+      - level: 511
+        priceOfLevelUp: 3.8671897e+22
+        value: 1.4515391e+16
+      - level: 512
+        priceOfLevelUp: 4.253909e+22
+        value: 1.5531469e+16
+      - level: 513
+        priceOfLevelUp: 4.6792995e+22
+        value: 1.6618673e+16
+      - level: 514
+        priceOfLevelUp: 5.1472298e+22
+        value: 1.778198e+16
+      - level: 515
+        priceOfLevelUp: 5.6619534e+22
+        value: 1.902672e+16
+      - level: 516
+        priceOfLevelUp: 6.2281486e+22
+        value: 2.0358592e+16
+      - level: 517
+        priceOfLevelUp: 6.8509636e+22
+        value: 2.1783694e+16
+      - level: 518
+        priceOfLevelUp: 7.53606e+22
+        value: 2.3308553e+16
+      - level: 519
+        priceOfLevelUp: 8.289666e+22
+        value: 2.4940154e+16
+      - level: 520
+        priceOfLevelUp: 9.118634e+22
+        value: 2.6685968e+16
+      - level: 521
+        priceOfLevelUp: 1.0030496e+23
+        value: 2.8553986e+16
+      - level: 522
+        priceOfLevelUp: 1.1033547e+23
+        value: 3.0552765e+16
+      - level: 523
+        priceOfLevelUp: 1.2136901e+23
+        value: 3.2691461e+16
+      - level: 524
+        priceOfLevelUp: 1.3350592e+23
+        value: 3.4979863e+16
+      - level: 525
+        priceOfLevelUp: 1.4685651e+23
+        value: 3.742846e+16
+      - level: 526
+        priceOfLevelUp: 1.6154217e+23
+        value: 4.004845e+16
+      - level: 527
+        priceOfLevelUp: 1.7769639e+23
+        value: 4.2851846e+16
+      - level: 528
+        priceOfLevelUp: 1.9546602e+23
+        value: 4.5851473e+16
+      - level: 529
+        priceOfLevelUp: 2.1501264e+23
+        value: 4.906108e+16
+      - level: 530
+        priceOfLevelUp: 2.3651392e+23
+        value: 5.2495362e+16
+      - level: 531
+        priceOfLevelUp: 2.6016531e+23
+        value: 5.6170038e+16
+      - level: 532
+        priceOfLevelUp: 2.8618181e+23
+        value: 6.0101943e+16
+      - level: 533
+        priceOfLevelUp: 3.1480003e+23
+        value: 6.4309082e+16
+      - level: 534
+        priceOfLevelUp: 3.4628005e+23
+        value: 6.8810723e+16
+      - level: 535
+        priceOfLevelUp: 3.8090804e+23
+        value: 7.362748e+16
+      - level: 536
+        priceOfLevelUp: 4.1899884e+23
+        value: 7.878141e+16
+      - level: 537
+        priceOfLevelUp: 4.608988e+23
+        value: 8.42961e+16
+      - level: 538
+        priceOfLevelUp: 5.0698866e+23
+        value: 9.019683e+16
+      - level: 539
+        priceOfLevelUp: 5.5768755e+23
+        value: 9.651062e+16
+      - level: 540
+        priceOfLevelUp: 6.134563e+23
+        value: 1.0326637e+17
+      - level: 541
+        priceOfLevelUp: 6.748019e+23
+        value: 1.1049503e+17
+      - level: 542
+        priceOfLevelUp: 7.4228214e+23
+        value: 1.1822968e+17
+      - level: 543
+        priceOfLevelUp: 8.165104e+23
+        value: 1.2650576e+17
+      - level: 544
+        priceOfLevelUp: 8.9816145e+23
+        value: 1.3536118e+17
+      - level: 545
+        priceOfLevelUp: 9.8797764e+23
+        value: 1.4483647e+17
+      - level: 546
+        priceOfLevelUp: 1.08677544e+24
+        value: 1.5497503e+17
+      - level: 547
+        priceOfLevelUp: 1.1954529e+24
+        value: 1.6582328e+17
+      - level: 548
+        priceOfLevelUp: 1.3149982e+24
+        value: 1.774309e+17
+      - level: 549
+        priceOfLevelUp: 1.4464981e+24
+        value: 1.898511e+17
+      - level: 550
+        priceOfLevelUp: 1.591148e+24
+        value: 2.0314067e+17
+      - level: 551
+        priceOfLevelUp: 1.7502628e+24
+        value: 2.1736053e+17
+      - level: 552
+        priceOfLevelUp: 1.9252891e+24
+        value: 2.3257578e+17
+      - level: 553
+        priceOfLevelUp: 2.1178181e+24
+        value: 2.488561e+17
+      - level: 554
+        priceOfLevelUp: 2.3296001e+24
+        value: 2.6627605e+17
+      - level: 555
+        priceOfLevelUp: 2.56256e+24
+        value: 2.8491537e+17
+      - level: 556
+        priceOfLevelUp: 2.818816e+24
+        value: 3.048595e+17
+      - level: 557
+        priceOfLevelUp: 3.100698e+24
+        value: 3.2619964e+17
+      - level: 558
+        priceOfLevelUp: 3.4107678e+24
+        value: 3.4903364e+17
+      - level: 559
+        priceOfLevelUp: 3.7518447e+24
+        value: 3.7346603e+17
+      - level: 560
+        priceOfLevelUp: 4.127029e+24
+        value: 3.9960864e+17
+      - level: 561
+        priceOfLevelUp: 4.5397322e+24
+        value: 4.2758128e+17
+      - level: 562
+        priceOfLevelUp: 4.9937054e+24
+        value: 4.57512e+17
+      - level: 563
+        priceOfLevelUp: 5.493076e+24
+        value: 4.8953786e+17
+      - level: 564
+        priceOfLevelUp: 6.042384e+24
+        value: 5.2380555e+17
+      - level: 565
+        priceOfLevelUp: 6.6466225e+24
+        value: 5.6047196e+17
+      - level: 566
+        priceOfLevelUp: 7.3112846e+24
+        value: 5.9970505e+17
+      - level: 567
+        priceOfLevelUp: 8.042413e+24
+        value: 6.416844e+17
+      - level: 568
+        priceOfLevelUp: 8.846655e+24
+        value: 6.8660234e+17
+      - level: 569
+        priceOfLevelUp: 9.73132e+24
+        value: 7.346645e+17
+      - level: 570
+        priceOfLevelUp: 1.0704452e+25
+        value: 7.860911e+17
+      - level: 571
+        priceOfLevelUp: 1.1774898e+25
+        value: 8.411175e+17
+      - level: 572
+        priceOfLevelUp: 1.2952388e+25
+        value: 8.9999576e+17
+      - level: 573
+        priceOfLevelUp: 1.4247628e+25
+        value: 9.629955e+17
+      - level: 574
+        priceOfLevelUp: 1.5672391e+25
+        value: 1.03040526e+18
+      - level: 575
+        priceOfLevelUp: 1.7239631e+25
+        value: 1.1025338e+18
+      - level: 576
+        priceOfLevelUp: 1.8963593e+25
+        value: 1.1797111e+18
+      - level: 577
+        priceOfLevelUp: 2.0859954e+25
+        value: 1.2622909e+18
+      - level: 578
+        priceOfLevelUp: 2.2945949e+25
+        value: 1.3506514e+18
+      - level: 579
+        priceOfLevelUp: 2.5240544e+25
+        value: 1.445197e+18
+      - level: 580
+        priceOfLevelUp: 2.7764598e+25
+        value: 1.5463608e+18
+      - level: 581
+        priceOfLevelUp: 3.054106e+25
+        value: 1.6546063e+18
+      - level: 582
+        priceOfLevelUp: 3.3595169e+25
+        value: 1.7704288e+18
+      - level: 583
+        priceOfLevelUp: 3.6954685e+25
+        value: 1.8943589e+18
+      - level: 584
+        priceOfLevelUp: 4.0650154e+25
+        value: 2.0269641e+18
+      - level: 585
+        priceOfLevelUp: 4.471517e+25
+        value: 2.1688516e+18
+      - level: 586
+        priceOfLevelUp: 4.918669e+25
+        value: 2.3206713e+18
+      - level: 587
+        priceOfLevelUp: 5.4105356e+25
+        value: 2.4831184e+18
+      - level: 588
+        priceOfLevelUp: 5.9515893e+25
+        value: 2.6569371e+18
+      - level: 589
+        priceOfLevelUp: 6.5467485e+25
+        value: 2.8429226e+18
+      - level: 590
+        priceOfLevelUp: 7.2014235e+25
+        value: 3.0419276e+18
+      - level: 591
+        priceOfLevelUp: 7.921566e+25
+        value: 3.2548626e+18
+      - level: 592
+        priceOfLevelUp: 8.713723e+25
+        value: 3.482703e+18
+      - level: 593
+        priceOfLevelUp: 9.585095e+25
+        value: 3.7264926e+18
+      - level: 594
+        priceOfLevelUp: 1.05436055e+26
+        value: 3.987347e+18
+      - level: 595
+        priceOfLevelUp: 1.1597966e+26
+        value: 4.2664616e+18
+      - level: 596
+        priceOfLevelUp: 1.2757763e+26
+        value: 4.565114e+18
+      - level: 597
+        priceOfLevelUp: 1.40335395e+26
+        value: 4.884673e+18
+      - level: 598
+        priceOfLevelUp: 1.5436893e+26
+        value: 5.2265994e+18
+      - level: 599
+        priceOfLevelUp: 1.6980582e+26
+        value: 5.592462e+18
+      - level: 600
+        priceOfLevelUp: 1.8678642e+26
+        value: 5.983934e+18
+      - level: 601
+        priceOfLevelUp: 2.0546507e+26
+        value: 6.40281e+18
+      - level: 602
+        priceOfLevelUp: 2.2601157e+26
+        value: 6.8510075e+18
+      - level: 603
+        priceOfLevelUp: 2.4861275e+26
+        value: 7.330578e+18
+      - level: 604
+        priceOfLevelUp: 2.7347403e+26
+        value: 7.843719e+18
+      - level: 605
+        priceOfLevelUp: 3.0082144e+26
+        value: 8.39278e+18
+      - level: 606
+        priceOfLevelUp: 3.309036e+26
+        value: 8.9802744e+18
+      - level: 607
+        priceOfLevelUp: 3.6399396e+26
+        value: 9.608895e+18
+      - level: 608
+        priceOfLevelUp: 4.0039337e+26
+        value: 1.0281518e+19
+      - level: 609
+        priceOfLevelUp: 4.404327e+26
+        value: 1.1001225e+19
+      - level: 610
+        priceOfLevelUp: 4.84476e+26
+        value: 1.1771311e+19
+      - level: 611
+        priceOfLevelUp: 5.329236e+26
+        value: 1.2595303e+19
+      - level: 612
+        priceOfLevelUp: 5.8621598e+26
+        value: 1.3476976e+19
+      - level: 613
+        priceOfLevelUp: 6.448376e+26
+        value: 1.4420364e+19
+      - level: 614
+        priceOfLevelUp: 7.0932136e+26
+        value: 1.5429791e+19
+      - level: 615
+        priceOfLevelUp: 7.802535e+26
+        value: 1.6509876e+19
+      - level: 616
+        priceOfLevelUp: 8.582789e+26
+        value: 1.766557e+19
+      - level: 617
+        priceOfLevelUp: 9.441068e+26
+        value: 1.890216e+19
+      - level: 618
+        priceOfLevelUp: 1.0385175e+27
+        value: 2.0225312e+19
+      - level: 619
+        priceOfLevelUp: 1.1423692e+27
+        value: 2.1641085e+19
+      - level: 620
+        priceOfLevelUp: 1.2566062e+27
+        value: 2.3155961e+19
+      - level: 621
+        priceOfLevelUp: 1.3822669e+27
+        value: 2.477688e+19
+      - level: 622
+        priceOfLevelUp: 1.5204935e+27
+        value: 2.6511264e+19
+      - level: 623
+        priceOfLevelUp: 1.672543e+27
+        value: 2.8367053e+19
+      - level: 624
+        priceOfLevelUp: 1.8397972e+27
+        value: 3.0352749e+19
+      - level: 625
+        priceOfLevelUp: 2.0237771e+27
+        value: 3.2477443e+19
+      - level: 626
+        priceOfLevelUp: 2.2261548e+27
+        value: 3.4750865e+19
+      - level: 627
+        priceOfLevelUp: 2.4487704e+27
+        value: 3.7183425e+19
+      - level: 628
+        priceOfLevelUp: 2.6936473e+27
+        value: 3.978627e+19
+      - level: 629
+        priceOfLevelUp: 2.9630123e+27
+        value: 4.2571313e+19
+      - level: 630
+        priceOfLevelUp: 3.2593136e+27
+        value: 4.55513e+19
+      - level: 631
+        priceOfLevelUp: 3.5852448e+27
+        value: 4.87399e+19
+      - level: 632
+        priceOfLevelUp: 3.9437696e+27
+        value: 5.2151692e+19
+      - level: 633
+        priceOfLevelUp: 4.3381465e+27
+        value: 5.5802313e+19
+      - level: 634
+        priceOfLevelUp: 4.771961e+27
+        value: 5.9708478e+19
+      - level: 635
+        priceOfLevelUp: 5.2491577e+27
+        value: 6.3888078e+19
+      - level: 636
+        priceOfLevelUp: 5.7740735e+27
+        value: 6.8360244e+19
+      - level: 637
+        priceOfLevelUp: 6.351481e+27
+        value: 7.3145464e+19
+      - level: 638
+        priceOfLevelUp: 6.986629e+27
+        value: 7.826565e+19
+      - level: 639
+        priceOfLevelUp: 7.6852926e+27
+        value: 8.374425e+19
+      - level: 640
+        priceOfLevelUp: 8.4538217e+27
+        value: 8.9606345e+19
+      - level: 641
+        priceOfLevelUp: 9.2992044e+27
+        value: 9.58788e+19
+      - level: 642
+        priceOfLevelUp: 1.0229125e+28
+        value: 1.0259032e+20
+      - level: 643
+        priceOfLevelUp: 1.1252037e+28
+        value: 1.0977165e+20
+      - level: 644
+        priceOfLevelUp: 1.2377241e+28
+        value: 1.1745567e+20
+      - level: 645
+        priceOfLevelUp: 1.3614965e+28
+        value: 1.2567757e+20
+      - level: 646
+        priceOfLevelUp: 1.4976462e+28
+        value: 1.3447501e+20
+      - level: 647
+        priceOfLevelUp: 1.647411e+28
+        value: 1.43888275e+20
+      - level: 648
+        priceOfLevelUp: 1.8121521e+28
+        value: 1.5396044e+20
+      - level: 649
+        priceOfLevelUp: 1.9933673e+28
+        value: 1.647377e+20
+      - level: 650
+        priceOfLevelUp: 2.192704e+28
+        value: 1.7626934e+20
+      - level: 651
+        priceOfLevelUp: 2.4119747e+28
+        value: 1.8860822e+20
+      - level: 652
+        priceOfLevelUp: 2.6531721e+28
+        value: 2.018108e+20
+      - level: 653
+        priceOfLevelUp: 2.9184893e+28
+        value: 2.1593756e+20
+      - level: 654
+        priceOfLevelUp: 3.2103384e+28
+        value: 2.310532e+20
+      - level: 655
+        priceOfLevelUp: 3.5313722e+28
+        value: 2.4722693e+20
+      - level: 656
+        priceOfLevelUp: 3.8845098e+28
+        value: 2.6453284e+20
+      - level: 657
+        priceOfLevelUp: 4.2729606e+28
+        value: 2.8305015e+20
+      - level: 658
+        priceOfLevelUp: 4.700257e+28
+        value: 3.028637e+20
+      - level: 659
+        priceOfLevelUp: 5.1702825e+28
+        value: 3.2406415e+20
+      - level: 660
+        priceOfLevelUp: 5.687311e+28
+        value: 3.4674864e+20
+      - level: 661
+        priceOfLevelUp: 6.2560424e+28
+        value: 3.7102107e+20
+      - level: 662
+        priceOfLevelUp: 6.8816464e+28
+        value: 3.9699255e+20
+      - level: 663
+        priceOfLevelUp: 7.5698113e+28
+        value: 4.247821e+20
+      - level: 664
+        priceOfLevelUp: 8.326792e+28
+        value: 4.5451682e+20
+      - level: 665
+        priceOfLevelUp: 9.159473e+28
+        value: 4.8633306e+20
+      - level: 666
+        priceOfLevelUp: 1.007542e+29
+        value: 5.2037637e+20
+      - level: 667
+        priceOfLevelUp: 1.1082962e+29
+        value: 5.568028e+20
+      - level: 668
+        priceOfLevelUp: 1.21912585e+29
+        value: 5.95779e+20
+      - level: 669
+        priceOfLevelUp: 1.3410385e+29
+        value: 6.3748354e+20
+      - level: 670
+        priceOfLevelUp: 1.4751423e+29
+        value: 6.821074e+20
+      - level: 671
+        priceOfLevelUp: 1.6226565e+29
+        value: 7.29855e+20
+      - level: 672
+        priceOfLevelUp: 1.7849223e+29
+        value: 7.8094486e+20
+      - level: 673
+        priceOfLevelUp: 1.9634145e+29
+        value: 8.35611e+20
+      - level: 674
+        priceOfLevelUp: 2.159756e+29
+        value: 8.9410386e+20
+      - level: 675
+        priceOfLevelUp: 2.3757317e+29
+        value: 9.5669115e+20
+      - level: 676
+        priceOfLevelUp: 2.613305e+29
+        value: 1.0236596e+21
+      - level: 677
+        priceOfLevelUp: 2.8746356e+29
+        value: 1.0953158e+21
+      - level: 678
+        priceOfLevelUp: 3.162099e+29
+        value: 1.17198806e+21
+      - level: 679
+        priceOfLevelUp: 3.4783093e+29
+        value: 1.2540272e+21
+      - level: 680
+        priceOfLevelUp: 3.82614e+29
+        value: 1.3418092e+21
+      - level: 681
+        priceOfLevelUp: 4.208754e+29
+        value: 1.4357359e+21
+      - level: 682
+        priceOfLevelUp: 4.6296298e+29
+        value: 1.5362375e+21
+      - level: 683
+        priceOfLevelUp: 5.092593e+29
+        value: 1.6437742e+21
+      - level: 684
+        priceOfLevelUp: 5.601852e+29
+        value: 1.7588385e+21
+      - level: 685
+        priceOfLevelUp: 6.1620373e+29
+        value: 1.8819573e+21
+      - level: 686
+        priceOfLevelUp: 6.7782416e+29
+        value: 2.0136944e+21
+      - level: 687
+        priceOfLevelUp: 7.456066e+29
+        value: 2.1546531e+21
+      - level: 688
+        priceOfLevelUp: 8.201672e+29
+        value: 2.305479e+21
+      - level: 689
+        priceOfLevelUp: 9.02184e+29
+        value: 2.4668627e+21
+      - level: 690
+        priceOfLevelUp: 9.9240245e+29
+        value: 2.639543e+21
+      - level: 691
+        priceOfLevelUp: 1.0916426e+30
+        value: 2.8243112e+21
+      - level: 692
+        priceOfLevelUp: 1.20080705e+30
+        value: 3.0220133e+21
+      - level: 693
+        priceOfLevelUp: 1.3208876e+30
+        value: 3.233554e+21
+      - level: 694
+        priceOfLevelUp: 1.4529765e+30
+        value: 3.459903e+21
+      - level: 695
+        priceOfLevelUp: 1.5982743e+30
+        value: 3.7020965e+21
+      - level: 696
+        priceOfLevelUp: 1.7581017e+30
+        value: 3.9612435e+21
+      - level: 697
+        priceOfLevelUp: 1.933912e+30
+        value: 4.2385307e+21
+      - level: 698
+        priceOfLevelUp: 2.1273031e+30
+        value: 4.5352284e+21
+      - level: 699
+        priceOfLevelUp: 2.3400335e+30
+        value: 4.8526945e+21
+      - level: 700
+        priceOfLevelUp: 2.5740367e+30
+        value: 5.192383e+21
+      - level: 701
+        priceOfLevelUp: 2.8314406e+30
+        value: 5.5558505e+21
+      - level: 702
+        priceOfLevelUp: 3.1145846e+30
+        value: 5.94476e+21
+      - level: 703
+        priceOfLevelUp: 3.4260432e+30
+        value: 6.3608937e+21
+      - level: 704
+        priceOfLevelUp: 3.7686476e+30
+        value: 6.8061567e+21
+      - level: 705
+        priceOfLevelUp: 4.1455127e+30
+        value: 7.282588e+21
+      - level: 706
+        priceOfLevelUp: 4.5600637e+30
+        value: 7.7923696e+21
+      - level: 707
+        priceOfLevelUp: 5.0160708e+30
+        value: 8.337836e+21
+      - level: 708
+        priceOfLevelUp: 5.5176777e+30
+        value: 8.9214845e+21
+      - level: 709
+        priceOfLevelUp: 6.0694453e+30
+        value: 9.54599e+21
+      - level: 710
+        priceOfLevelUp: 6.67639e+30
+        value: 1.0214208e+22
+      - level: 711
+        priceOfLevelUp: 7.34403e+30
+        value: 1.0929204e+22
+      - level: 712
+        priceOfLevelUp: 8.078433e+30
+        value: 1.1694248e+22
+      - level: 713
+        priceOfLevelUp: 8.886276e+30
+        value: 1.2512847e+22
+      - level: 714
+        priceOfLevelUp: 9.774903e+30
+        value: 1.3388747e+22
+      - level: 715
+        priceOfLevelUp: 1.0752394e+31
+        value: 1.432596e+22
+      - level: 716
+        priceOfLevelUp: 1.1827635e+31
+        value: 1.5328778e+22
+      - level: 717
+        priceOfLevelUp: 1.3010398e+31
+        value: 1.6401793e+22
+      - level: 718
+        priceOfLevelUp: 1.4311437e+31
+        value: 1.754992e+22
+      - level: 719
+        priceOfLevelUp: 1.5742581e+31
+        value: 1.8778414e+22
+      - level: 720
+        priceOfLevelUp: 1.731684e+31
+        value: 2.0092904e+22
+      - level: 721
+        priceOfLevelUp: 1.9048524e+31
+        value: 2.149941e+22
+      - level: 722
+        priceOfLevelUp: 2.0953378e+31
+        value: 2.300437e+22
+      - level: 723
+        priceOfLevelUp: 2.3048717e+31
+        value: 2.4614676e+22
+      - level: 724
+        priceOfLevelUp: 2.5353587e+31
+        value: 2.6337704e+22
+      - level: 725
+        priceOfLevelUp: 2.788895e+31
+        value: 2.8181347e+22
+      - level: 726
+        priceOfLevelUp: 3.0677842e+31
+        value: 3.015404e+22
+      - level: 727
+        priceOfLevelUp: 3.3745627e+31
+        value: 3.2264824e+22
+      - level: 728
+        priceOfLevelUp: 3.7120193e+31
+        value: 3.4523365e+22
+      - level: 729
+        priceOfLevelUp: 4.083221e+31
+        value: 3.6940001e+22
+      - level: 730
+        priceOfLevelUp: 4.4915434e+31
+        value: 3.9525806e+22
+      - level: 731
+        priceOfLevelUp: 4.9406975e+31
+        value: 4.2292615e+22
+      - level: 732
+        priceOfLevelUp: 5.4347676e+31
+        value: 4.52531e+22
+      - level: 733
+        priceOfLevelUp: 5.9782446e+31
+        value: 4.8420816e+22
+      - level: 734
+        priceOfLevelUp: 6.576069e+31
+        value: 5.1810275e+22
+      - level: 735
+        priceOfLevelUp: 7.2336763e+31
+        value: 5.5437e+22
+      - level: 736
+        priceOfLevelUp: 7.957044e+31
+        value: 5.931759e+22
+      - level: 737
+        priceOfLevelUp: 8.752749e+31
+        value: 6.3469824e+22
+      - level: 738
+        priceOfLevelUp: 9.628024e+31
+        value: 6.7912715e+22
+      - level: 739
+        priceOfLevelUp: 1.0590827e+32
+        value: 7.2666607e+22
+      - level: 740
+        priceOfLevelUp: 1.1649909e+32
+        value: 7.775328e+22
+      - level: 741
+        priceOfLevelUp: 1.2814901e+32
+        value: 8.319601e+22
+      - level: 742
+        priceOfLevelUp: 1.4096391e+32
+        value: 8.901974e+22
+      - level: 743
+        priceOfLevelUp: 1.550603e+32
+        value: 9.525112e+22
+      - level: 744
+        priceOfLevelUp: 1.7056632e+32
+        value: 1.019187e+23
+      - level: 745
+        priceOfLevelUp: 1.8762297e+32
+        value: 1.0905303e+23
+      - level: 746
+        priceOfLevelUp: 2.0638526e+32
+        value: 1.1668674e+23
+      - level: 747
+        priceOfLevelUp: 2.2702381e+32
+        value: 1.24854815e+23
+      - level: 748
+        priceOfLevelUp: 2.4972618e+32
+        value: 1.3359466e+23
+      - level: 749
+        priceOfLevelUp: 2.7469882e+32
+        value: 1.429463e+23
+      - level: 750
+        priceOfLevelUp: 3.0216873e+32
+        value: 1.5295255e+23
+      - level: 751
+        priceOfLevelUp: 3.323856e+32
+        value: 1.6365923e+23
+      - level: 752
+        priceOfLevelUp: 3.6562412e+32
+        value: 1.7511537e+23
+      - level: 753
+        priceOfLevelUp: 4.021866e+32
+        value: 1.8737347e+23
+      - level: 754
+        priceOfLevelUp: 4.4240522e+32
+        value: 2.004896e+23
+      - level: 755
+        priceOfLevelUp: 4.866458e+32
+        value: 2.145239e+23
+      - level: 756
+        priceOfLevelUp: 5.3531034e+32
+        value: 2.2954058e+23
+      - level: 757
+        priceOfLevelUp: 5.8884142e+32
+        value: 2.4560844e+23
+      - level: 758
+        priceOfLevelUp: 6.4772555e+32
+        value: 2.6280105e+23
+      - level: 759
+        priceOfLevelUp: 7.124981e+32
+        value: 2.8119714e+23
+      - level: 760
+        priceOfLevelUp: 7.83748e+32
+        value: 3.0088093e+23
+      - level: 761
+        priceOfLevelUp: 8.621228e+32
+        value: 3.219426e+23
+      - level: 762
+        priceOfLevelUp: 9.48335e+32
+        value: 3.444786e+23
+      - level: 763
+        priceOfLevelUp: 1.0431686e+33
+        value: 3.6859218e+23
+      - level: 764
+        priceOfLevelUp: 1.14748554e+33
+        value: 3.9439362e+23
+      - level: 765
+        priceOfLevelUp: 1.262234e+33
+        value: 4.220012e+23
+      - level: 766
+        priceOfLevelUp: 1.3884575e+33
+        value: 4.515413e+23
+      - level: 767
+        priceOfLevelUp: 1.5273033e+33
+        value: 4.831492e+23
+      - level: 768
+        priceOfLevelUp: 1.6800337e+33
+        value: 5.1696968e+23
+      - level: 769
+        priceOfLevelUp: 1.8480371e+33
+        value: 5.5315758e+23
+      - level: 770
+        priceOfLevelUp: 2.0328408e+33
+        value: 5.9187863e+23
+      - level: 771
+        priceOfLevelUp: 2.236125e+33
+        value: 6.3331016e+23
+      - level: 772
+        priceOfLevelUp: 2.4597376e+33
+        value: 6.7764194e+23
+      - level: 773
+        priceOfLevelUp: 2.7057114e+33
+        value: 7.250769e+23
+      - level: 774
+        priceOfLevelUp: 2.9762824e+33
+        value: 7.758323e+23
+      - level: 775
+        priceOfLevelUp: 3.273911e+33
+        value: 8.301407e+23
+      - level: 776
+        priceOfLevelUp: 3.6013022e+33
+        value: 8.882505e+23
+      - level: 777
+        priceOfLevelUp: 3.9614323e+33
+        value: 9.504281e+23
+      - level: 778
+        priceOfLevelUp: 4.357576e+33
+        value: 1.0169581e+24
+      - level: 779
+        priceOfLevelUp: 4.7933332e+33
+        value: 1.0881452e+24
+      - level: 780
+        priceOfLevelUp: 5.2726664e+33
+        value: 1.1643154e+24
+      - level: 781
+        priceOfLevelUp: 5.7999335e+33
+        value: 1.2458177e+24
+      - level: 782
+        priceOfLevelUp: 6.379927e+33
+        value: 1.3330248e+24
+      - level: 783
+        priceOfLevelUp: 7.01792e+33
+        value: 1.4263367e+24
+      - level: 784
+        priceOfLevelUp: 7.719712e+33
+        value: 1.5261804e+24
+      - level: 785
+        priceOfLevelUp: 8.491683e+33
+        value: 1.6330132e+24
+      - level: 786
+        priceOfLevelUp: 9.340852e+33
+        value: 1.747324e+24
+      - level: 787
+        priceOfLevelUp: 1.0274938e+34
+        value: 1.8696367e+24
+      - level: 788
+        priceOfLevelUp: 1.1302431e+34
+        value: 2.0005116e+24
+      - level: 789
+        priceOfLevelUp: 1.2432674e+34
+        value: 2.1405474e+24
+      - level: 790
+        priceOfLevelUp: 1.3675943e+34
+        value: 2.2903858e+24
+      - level: 791
+        priceOfLevelUp: 1.5043538e+34
+        value: 2.450713e+24
+      - level: 792
+        priceOfLevelUp: 1.6547891e+34
+        value: 2.6222632e+24
+      - level: 793
+        priceOfLevelUp: 1.8202681e+34
+        value: 2.8058215e+24
+      - level: 794
+        priceOfLevelUp: 2.002295e+34
+        value: 3.0022292e+24
+      - level: 795
+        priceOfLevelUp: 2.2025243e+34
+        value: 3.2123855e+24
+      - level: 796
+        priceOfLevelUp: 2.422777e+34
+        value: 3.4372527e+24
+      - level: 797
+        priceOfLevelUp: 2.6650546e+34
+        value: 3.6778605e+24
+      - level: 798
+        priceOfLevelUp: 2.9315604e+34
+        value: 3.9353108e+24
+      - level: 799
+        priceOfLevelUp: 3.2247162e+34
+        value: 4.210783e+24
+      - level: 800
+        priceOfLevelUp: 3.547188e+34
+        value: 4.5055377e+24
+      - level: 801
+        priceOfLevelUp: 3.901907e+34
+        value: 4.820926e+24
+      - level: 802
+        priceOfLevelUp: 4.2920976e+34
+        value: 5.1583904e+24
+      - level: 803
+        priceOfLevelUp: 4.7213077e+34
+        value: 5.5194785e+24
+      - level: 804
+        priceOfLevelUp: 5.1934387e+34
+        value: 5.905842e+24
+      - level: 805
+        priceOfLevelUp: 5.7127823e+34
+        value: 6.3192515e+24
+      - level: 806
+        priceOfLevelUp: 6.284061e+34
+        value: 6.761599e+24
+      - level: 807
+        priceOfLevelUp: 6.912467e+34
+        value: 7.2349116e+24
+      - level: 808
+        priceOfLevelUp: 7.603714e+34
+        value: 7.741356e+24
+      - level: 809
+        priceOfLevelUp: 8.364085e+34
+        value: 8.2832516e+24
+      - level: 810
+        priceOfLevelUp: 9.200494e+34
+        value: 8.8630795e+24
+      - level: 811
+        priceOfLevelUp: 1.0120544e+35
+        value: 9.4834953e+24
+      - level: 812
+        priceOfLevelUp: 1.1132599e+35
+        value: 1.0147341e+25
+      - level: 813
+        priceOfLevelUp: 1.2245858e+35
+        value: 1.0857656e+25
+      - level: 814
+        priceOfLevelUp: 1.3470445e+35
+        value: 1.161769e+25
+      - level: 815
+        priceOfLevelUp: 1.481749e+35
+        value: 1.243093e+25
+      - level: 816
+        priceOfLevelUp: 1.6299239e+35
+        value: 1.3301096e+25
+      - level: 817
+        priceOfLevelUp: 1.7929163e+35
+        value: 1.4232173e+25
+      - level: 818
+        priceOfLevelUp: 1.972208e+35
+        value: 1.5228426e+25
+      - level: 819
+        priceOfLevelUp: 2.169429e+35
+        value: 1.6294417e+25
+      - level: 820
+        priceOfLevelUp: 2.3863717e+35
+        value: 1.7435027e+25
+      - level: 821
+        priceOfLevelUp: 2.625009e+35
+        value: 1.8655479e+25
+      - level: 822
+        priceOfLevelUp: 2.88751e+35
+        value: 1.9961365e+25
+      - level: 823
+        priceOfLevelUp: 3.176261e+35
+        value: 2.135866e+25
+      - level: 824
+        priceOfLevelUp: 3.4938875e+35
+        value: 2.2853768e+25
+      - level: 825
+        priceOfLevelUp: 3.843276e+35
+        value: 2.4453532e+25
+      - level: 826
+        priceOfLevelUp: 4.2276037e+35
+        value: 2.6165281e+25
+      - level: 827
+        priceOfLevelUp: 4.6503643e+35
+        value: 2.7996852e+25
+      - level: 828
+        priceOfLevelUp: 5.1154008e+35
+        value: 2.9956634e+25
+      - level: 829
+        priceOfLevelUp: 5.626941e+35
+        value: 3.20536e+25
+      - level: 830
+        priceOfLevelUp: 6.1896352e+35
+        value: 3.4297353e+25
+      - level: 831
+        priceOfLevelUp: 6.808599e+35
+        value: 3.669817e+25
+      - level: 832
+        priceOfLevelUp: 7.489459e+35
+        value: 3.926704e+25
+      - level: 833
+        priceOfLevelUp: 8.238405e+35
+        value: 4.201574e+25
+      - level: 834
+        priceOfLevelUp: 9.0622456e+35
+        value: 4.4956846e+25
+      - level: 835
+        priceOfLevelUp: 9.96847e+35
+        value: 4.8103824e+25
+      - level: 836
+        priceOfLevelUp: 1.0965318e+36
+        value: 5.147109e+25
+      - level: 837
+        priceOfLevelUp: 1.206185e+36
+        value: 5.5074073e+25
+      - level: 838
+        priceOfLevelUp: 1.3268035e+36
+        value: 5.8929263e+25
+      - level: 839
+        priceOfLevelUp: 1.4594838e+36
+        value: 6.3054315e+25
+      - level: 840
+        priceOfLevelUp: 1.6054323e+36
+        value: 6.746812e+25
+      - level: 841
+        priceOfLevelUp: 1.7659755e+36
+        value: 7.219089e+25
+      - level: 842
+        priceOfLevelUp: 1.9425731e+36
+        value: 7.724426e+25
+      - level: 843
+        priceOfLevelUp: 2.1368304e+36
+        value: 8.265136e+25
+      - level: 844
+        priceOfLevelUp: 2.3505136e+36
+        value: 8.843696e+25
+      - level: 845
+        priceOfLevelUp: 2.5855651e+36
+        value: 9.462755e+25
+      - level: 846
+        priceOfLevelUp: 2.8441215e+36
+        value: 1.01251485e+26
+      - level: 847
+        priceOfLevelUp: 3.1285338e+36
+        value: 1.0833909e+26
+      - level: 848
+        priceOfLevelUp: 3.4413874e+36
+        value: 1.1592284e+26
+      - level: 849
+        priceOfLevelUp: 3.7855264e+36
+        value: 1.2403744e+26
+      - level: 850
+        priceOfLevelUp: 4.1640788e+36
+        value: 1.3272006e+26
+      - level: 851
+        priceOfLevelUp: 4.580487e+36
+        value: 1.4201048e+26
+      - level: 852
+        priceOfLevelUp: 5.0385356e+36
+        value: 1.5195122e+26
+      - level: 853
+        priceOfLevelUp: 5.542389e+36
+        value: 1.625878e+26
+      - level: 854
+        priceOfLevelUp: 6.0966287e+36
+        value: 1.7396897e+26
+      - level: 855
+        priceOfLevelUp: 6.706291e+36
+        value: 1.861468e+26
+      - level: 856
+        priceOfLevelUp: 7.376921e+36
+        value: 1.991771e+26
+      - level: 857
+        priceOfLevelUp: 8.114613e+36
+        value: 2.131195e+26
+      - level: 858
+        priceOfLevelUp: 8.926074e+36
+        value: 2.2803788e+26
+      - level: 859
+        priceOfLevelUp: 9.818682e+36
+        value: 2.4400053e+26
+      - level: 860
+        priceOfLevelUp: 1.080055e+37
+        value: 2.6108059e+26
+      - level: 861
+        priceOfLevelUp: 1.1880605e+37
+        value: 2.7935624e+26
+      - level: 862
+        priceOfLevelUp: 1.3068666e+37
+        value: 2.989112e+26
+      - level: 863
+        priceOfLevelUp: 1.4375533e+37
+        value: 3.19835e+26
+      - level: 864
+        priceOfLevelUp: 1.5813087e+37
+        value: 3.4222344e+26
+      - level: 865
+        priceOfLevelUp: 1.7394396e+37
+        value: 3.6617912e+26
+      - level: 866
+        priceOfLevelUp: 1.9133837e+37
+        value: 3.918117e+26
+      - level: 867
+        priceOfLevelUp: 2.104722e+37
+        value: 4.192385e+26
+      - level: 868
+        priceOfLevelUp: 2.3151942e+37
+        value: 4.4858523e+26
+      - level: 869
+        priceOfLevelUp: 2.5467136e+37
+        value: 4.799862e+26
+      - level: 870
+        priceOfLevelUp: 2.8013854e+37
+        value: 5.135853e+26
+      - level: 871
+        priceOfLevelUp: 3.0815237e+37
+        value: 5.495363e+26
+      - level: 872
+        priceOfLevelUp: 3.3896762e+37
+        value: 5.8800388e+26
+      - level: 873
+        priceOfLevelUp: 3.7286442e+37
+        value: 6.291641e+26
+      - level: 874
+        priceOfLevelUp: 4.1015086e+37
+        value: 6.7320566e+26
+      - level: 875
+        priceOfLevelUp: 4.511659e+37
+        value: 7.203301e+26
+      - level: 876
+        priceOfLevelUp: 4.9628257e+37
+        value: 7.707532e+26
+      - level: 877
+        priceOfLevelUp: 5.4591084e+37
+        value: 8.2470604e+26
+      - level: 878
+        priceOfLevelUp: 6.005019e+37
+        value: 8.824355e+26
+      - level: 879
+        priceOfLevelUp: 6.605521e+37
+        value: 9.44206e+26
+      - level: 880
+        priceOfLevelUp: 7.2660733e+37
+        value: 1.0103005e+27
+      - level: 881
+        priceOfLevelUp: 7.992681e+37
+        value: 1.08102156e+27
+      - level: 882
+        priceOfLevelUp: 8.791949e+37
+        value: 1.1566931e+27
+      - level: 883
+        priceOfLevelUp: 9.671144e+37
+        value: 1.2376617e+27
+      - level: 884
+        priceOfLevelUp: 1.063826e+38
+        value: 1.3242981e+27
+      - level: 885
+        priceOfLevelUp: 1.1702085e+38
+        value: 1.416999e+27
+      - level: 886
+        priceOfLevelUp: 1.2872294e+38
+        value: 1.516189e+27
+      - level: 887
+        priceOfLevelUp: 1.4159523e+38
+        value: 1.6223222e+27
+      - level: 888
+        priceOfLevelUp: 1.5575477e+38
+        value: 1.735885e+27
+      - level: 889
+        priceOfLevelUp: 1.7133024e+38
+        value: 1.857397e+27
+      - level: 890
+        priceOfLevelUp: 1.8846328e+38
+        value: 1.987415e+27
+      levelLockSettings: []
+      useDeltaType: 1
+      defaultUpgradeOpened: 1
+      defaultValue: 15
+      deltaValue: 1.07
+      defaultPrice: 30
+      deltaPrice: 1.1
+      maxLevel: 890
+      deltaType: 1
+      upgradeType: 2
+    pressPushYOffsetPercent: 0.336
+    pressCrushSlowDownSpeedMultiplier: 5.5
+    minUpperPressDistFromLowerPart: 1
+    minPressMoveTime: 0.15
+    pressMoveDownCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.1951637
+        outSlope: 0.1951637
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.02160215
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    pressMoveUpCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.0176772
+        outSlope: 0.0176772
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.04770476
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - press: {fileID: 4320241365922628210, guid: 2bb51dc648eff7e44be757358b600912, type: 3}
+    pressUpgrades:
+    - upgradeName: 
+      valueType: 
+      upgradeImage: {fileID: 0}
+      priceImage: {fileID: 0}
+      buttonImage: {fileID: 0}
+      pulseButtonWhenAvailable: 0
+      useCustomButtonPrefab: 0
+      buttonPrefab: {fileID: 0}
+      timerOutputType: 1
+      timerAdditionalOutputString: 
+      buttonClickSound: 2
+      order: 0
+      overriveButtonOptions: 0
+      removeButtonOnMaxLevel: 0
+      upgrades:
+      - level: 1
+        priceOfLevelUp: 10
+        value: 1
+      - level: 10
+        priceOfLevelUp: 10
+        value: 0.5
+      levelLockSettings: []
+      useDeltaType: 0
+      defaultUpgradeOpened: 0
+      defaultValue: 0
+      deltaValue: 0
+      defaultPrice: 0
+      deltaPrice: 0
+      maxLevel: 0
+      deltaType: 0
+      upgradeType: 0
+    - upgradeName: 
+      valueType: 
+      upgradeImage: {fileID: 0}
+      priceImage: {fileID: 0}
+      buttonImage: {fileID: 0}
+      pulseButtonWhenAvailable: 0
+      useCustomButtonPrefab: 0
+      buttonPrefab: {fileID: 0}
+      timerOutputType: 1
+      timerAdditionalOutputString: 
+      buttonClickSound: 2
+      order: 0
+      overriveButtonOptions: 0
+      removeButtonOnMaxLevel: 0
+      upgrades:
+      - level: 1
+        priceOfLevelUp: 10
+        value: 1
+      - level: 10
+        priceOfLevelUp: 10
+        value: 0.5
+      levelLockSettings: []
+      useDeltaType: 0
+      defaultUpgradeOpened: 0
+      defaultValue: 0
+      deltaValue: 0
+      defaultPrice: 0
+      deltaPrice: 0
+      maxLevel: 0
+      deltaType: 0
+      upgradeType: 1
+    - upgradeName: 
+      valueType: 
+      upgradeImage: {fileID: 0}
+      priceImage: {fileID: 0}
+      buttonImage: {fileID: 0}
+      pulseButtonWhenAvailable: 0
+      useCustomButtonPrefab: 0
+      buttonPrefab: {fileID: 0}
+      timerOutputType: 1
+      timerAdditionalOutputString: 
+      buttonClickSound: 2
+      order: 0
+      overriveButtonOptions: 0
+      removeButtonOnMaxLevel: 0
+      upgrades:
+      - level: 1
+        priceOfLevelUp: 10
+        value: 1
+      - level: 10
+        priceOfLevelUp: 10
+        value: 5
+      levelLockSettings: []
+      useDeltaType: 0
+      defaultUpgradeOpened: 0
+      defaultValue: 0
+      deltaValue: 0
+      defaultPrice: 0
+      deltaPrice: 0
+      maxLevel: 0
+      deltaType: 0
+      upgradeType: 2
+    pressPushYOffsetPercent: 0.411
+    pressCrushSlowDownSpeedMultiplier: 5.01
+    minUpperPressDistFromLowerPart: 1.15
+    minPressMoveTime: 0
+    pressMoveDownCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.1951637
+        outSlope: 0.1951637
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.02160215
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    pressMoveUpCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.0176772
+        outSlope: 0.0176772
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.04770476
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

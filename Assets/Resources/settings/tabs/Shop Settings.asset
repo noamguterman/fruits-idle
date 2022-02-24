@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8432cc8bf3a8b6b02824a90730bbf6, type: 3}
+  m_Name: Shop Settings
+  m_EditorClassIdentifier: 
+  isEnabled: 1
+  tabID: 2
+  tabSprite: {fileID: 21300000, guid: 5a4f23c0b0532514a9eab7b98a5b73cc, type: 3}
+  selectedTabSprite: {fileID: 21300000, guid: dd0d334d2956ff047b4beb84cc9990d8, type: 3}
+  rareOreRewarded:
+    upgradeName: 
+    valueType: 
+    upgradeImage: {fileID: 0}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 0
+    requiredRewardedAmount: 0
+    gemAmount: 0
+    waitTime: 0
+  shopListItems:
+  - upgradeName: No ADS
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 3abb64e0e16a50843bc760361477c487, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 0
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 1
+    shopItemType: 1
+    percentValue: 0
+    useHotSticker: 0
+    moneyType: 0
+    amount: 0
+    productType: 1
+    itemShopID: epc.pressexpensivefruitidle.no_ads
+  - upgradeName: Gem Base Pack
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 5a3b2ce615ee8604eb723d15c16e5f66, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 2
+    shopItemType: 0
+    percentValue: 0
+    useHotSticker: 0
+    moneyType: 1
+    amount: 15
+    productType: 0
+    itemShopID: epc.pressexpensivefruitidle.base_pack
+  - upgradeName: Gem Micro Pack
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 6d5e6439d3e0e064e8ee4ba0469b599a, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 3
+    shopItemType: 0
+    percentValue: 20
+    useHotSticker: 0
+    moneyType: 1
+    amount: 90
+    productType: 0
+    itemShopID: epc.pressexpensivefruitidle.micro_pack
+  - upgradeName: Gem Small Pack
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 8489fe76995ba9146aa67169649de2b1, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 4
+    shopItemType: 0
+    percentValue: 40
+    useHotSticker: 1
+    moneyType: 1
+    amount: 210
+    productType: 0
+    itemShopID: epc.pressexpensivefruitidle.small_pack
+  - upgradeName: Gem Middle Pack
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 127388f7f3d0d0a46a080f1be1ecb87a, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 5
+    shopItemType: 0
+    percentValue: 60
+    useHotSticker: 0
+    moneyType: 1
+    amount: 480
+    productType: 0
+    itemShopID: epc.pressexpensivefruitidle.middle_pack
+  - upgradeName: Gem Big Pack
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 7cef9ca6d60387947a9ca635697dcb09, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 6
+    shopItemType: 0
+    percentValue: 70
+    useHotSticker: 0
+    moneyType: 1
+    amount: 1275
+    productType: 0
+    itemShopID: epc.pressexpensivefruitidle.big_pack
+  - upgradeName: Gem Giant Pack
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: b6da95db6d397734e9fe81be337f0c5e, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 0}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985228974, guid: c9f3dbd00a7d4ec5810a22727417054a,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 7
+    shopItemType: 0
+    percentValue: 90
+    useHotSticker: 0
+    moneyType: 1
+    amount: 2850
+    productType: 0
+    itemShopID: epc.pressexpensivefruitidle.giant_pack

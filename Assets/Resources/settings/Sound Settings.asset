@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b867d101afed797bf35edd252c1690, type: 3}
+  m_Name: Sound Settings
+  m_EditorClassIdentifier: 
+  masterVolume: 0.15
+  sounds:
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 874192aed3d2e1c418aaee03ec0189ee, type: 3}
+    audioClipsList:
+    - {fileID: 8300000, guid: 874192aed3d2e1c418aaee03ec0189ee, type: 3}
+    - {fileID: 8300000, guid: 5406f1ce734840349bd01a4548848cd3, type: 3}
+    - {fileID: 8300000, guid: d89bf63297cd8fb4cbabd657f2430f4e, type: 3}
+    - {fileID: 8300000, guid: 41d78e7c8f9b0be44bbebd1cf7aa8f0f, type: 3}
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.417
+    pitch: 1
+    pitchRange: {x: 0.93, y: 0.99}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 0
+    SoundType: 0
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 78fa04dd15be142499f64edb188d9bf5, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 2
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 1
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 037f6fa91951b0944a9e38cb47ac35d2, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 1
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 2
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: df19df6c3e5440d382b8c515aa521d4e, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 1.43
+    pitchRange: {x: 1, y: 1}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 3
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 81b246b97fcf4632a3d00b24bdfae16e, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 2.06
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 4
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 4a7ffcb723d446b190f7cc77895c6e3e, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 0.75
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 5
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 4a7ffcb723d446b190f7cc77895c6e3e, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 0.75
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 6
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 197884ca3a7e4e378469429bf1348996, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.9
+    pitch: 1
+    pitchRange: {x: -0.7582417, y: 1.417583}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 7
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 111a133aacea48c8905232233241ecb2, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.87
+    pitch: 1.21
+    pitchRange: {x: 0.89011, y: 1.1}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 8
+  - isSoundEnabled: 0
+    audioClip: {fileID: 0}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 1.51
+    pitchRange: {x: -0.6923077, y: 2.736264}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 9
+  - isSoundEnabled: 1
+    audioClip: {fileID: 0}
+    audioClipsList:
+    - {fileID: 8300000, guid: e954bc7c91fc48d2a615663266913b7f, type: 3}
+    - {fileID: 8300000, guid: b23b452bcb1c4acf94869bbf539a3427, type: 3}
+    - {fileID: 8300000, guid: 3a84d286967c48b899f9887415d2d9d8, type: 3}
+    - {fileID: 8300000, guid: 4e73928fd23c48f0aa8c81dc07ec31f1, type: 3}
+    useRandomAudioClipsRange: 1
+    soundVolume: 0.548
+    pitch: 1
+    pitchRange: {x: 1.175589, y: 1.329764}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 0
+    SoundType: 10
+  - isSoundEnabled: 1
+    audioClip: {fileID: 0}
+    audioClipsList:
+    - {fileID: 8300000, guid: 32953eb58ce948eb8841fa57e2db046e, type: 3}
+    - {fileID: 8300000, guid: 49855362f9924470a80dd1c779ecdcee, type: 3}
+    - {fileID: 8300000, guid: 93282be56af5492492b68137fddfd7ab, type: 3}
+    - {fileID: 8300000, guid: 1fb5e86ddd5f47eea35bce3a62f5dc81, type: 3}
+    useRandomAudioClipsRange: 1
+    soundVolume: 0.05
+    pitch: 0.64
+    pitchRange: {x: 0.9957172, y: 1.16129}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 0
+    SoundType: 11
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 361149108bb646cf84d1bf86ffa60f21, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.22
+    pitch: 1
+    pitchRange: {x: 0.4285714, y: 0.8929335}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 0
+    SoundType: 12
+  - isSoundEnabled: 0
+    audioClip: {fileID: 0}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.69
+    pitch: 1.26
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 13
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 9365bb0090734810a572c203ccc5685c, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.1
+    pitch: 1
+    pitchRange: {x: 1, y: 1}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 14
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 676d508db7a247dd825cfff6446bc027, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.601
+    pitch: 2.05
+    pitchRange: {x: 1, y: 1}
+    usePitchRange: 0
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 0
+    SoundType: 15
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 9f40d2c501e5447a80c29e93386fc777, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.988
+    pitch: 1
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 2
+    SoundType: 16
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: c9cf39b535fc4b18b7b7955d25bd4235, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 1
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 2
+    SoundType: 17
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 58b4a5404b0c483989d59b56ea3ab3f7, type: 3}
+    audioClipsList:
+    - {fileID: 8300000, guid: 58b4a5404b0c483989d59b56ea3ab3f7, type: 3}
+    - {fileID: 8300000, guid: c609afa9a8c046f5ae7b3d77f8b9b887, type: 3}
+    - {fileID: 8300000, guid: 042d0bc77a0846a592cdbf464c964056, type: 3}
+    useRandomAudioClipsRange: 1
+    soundVolume: 0.3
+    pitch: 1
+    pitchRange: {x: 0.9683973, y: 1.2}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 2
+    SoundType: 18
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 58b4a5404b0c483989d59b56ea3ab3f7, type: 3}
+    audioClipsList:
+    - {fileID: 8300000, guid: 58b4a5404b0c483989d59b56ea3ab3f7, type: 3}
+    - {fileID: 8300000, guid: c609afa9a8c046f5ae7b3d77f8b9b887, type: 3}
+    - {fileID: 8300000, guid: 042d0bc77a0846a592cdbf464c964056, type: 3}
+    useRandomAudioClipsRange: 1
+    soundVolume: 0.3
+    pitch: 1
+    pitchRange: {x: 0.9683973, y: 1.1}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 2
+    SoundType: 19
+  - isSoundEnabled: 1
+    audioClip: {fileID: 0}
+    audioClipsList:
+    - {fileID: 8300000, guid: 32953eb58ce948eb8841fa57e2db046e, type: 3}
+    - {fileID: 8300000, guid: 49855362f9924470a80dd1c779ecdcee, type: 3}
+    - {fileID: 8300000, guid: 93282be56af5492492b68137fddfd7ab, type: 3}
+    - {fileID: 8300000, guid: 1fb5e86ddd5f47eea35bce3a62f5dc81, type: 3}
+    useRandomAudioClipsRange: 1
+    soundVolume: 0.35
+    pitch: 1
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 2
+    SoundType: 20
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 361149108bb646cf84d1bf86ffa60f21, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 0.223
+    pitch: 1
+    pitchRange: {x: 0.4285714, y: 0.8929335}
+    usePitchRange: 1
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 2
+    SoundType: 21
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 037f6fa91951b0944a9e38cb47ac35d2, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 1
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 22
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 81b246b97fcf4632a3d00b24bdfae16e, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 1
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 0
+    gameScreenIndex: 0
+    SoundType: 23
+  - isSoundEnabled: 1
+    audioClip: {fileID: 8300000, guid: 89a4d32350b0dc94eb0f92ec049a25e1, type: 3}
+    audioClipsList: []
+    useRandomAudioClipsRange: 0
+    soundVolume: 1
+    pitch: 2
+    pitchRange: {x: 0, y: 0}
+    usePitchRange: 0
+    confineSoundToGameScreen: 1
+    gameScreenIndex: 4
+    SoundType: 24

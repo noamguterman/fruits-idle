@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0bdf51926ebcf7741e412f919f859d, type: 3}
+  m_Name: Buttons Settings
+  m_EditorClassIdentifier: 
+  buttonItemsUpgrades:
+  - upgradeName: Piece Spawn
+    valueType: sec for One
+    upgradeImage: {fileID: 21300000, guid: 1d0cefba1c29cf3468da0a8ddaa9c673, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 123
+    upgradeType: 4
+  - upgradeName: Gravity
+    valueType: "m/s\xB2"
+    upgradeImage: {fileID: 21300000, guid: 5356d13bb1775104db878a5a4cb9765e, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 124
+    upgradeType: 8
+  - upgradeName: Unlock Mixer
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: 859e611cedd7b0248b67435642c4ffb7, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 3efc8e3e592fc084fae78b3474d5d1b5, type: 3}
+    pulseButtonWhenAvailable: 1
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1789929698985229089, guid: 82d57dc85cd74b298ba32c5deb833b07,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 126
+    upgradeType: 9
+  - upgradeName: Unlock Vender
+    valueType: 
+    upgradeImage: {fileID: 21300000, guid: e003fbb8bfea2724caac0dc147a21f91, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 3efc8e3e592fc084fae78b3474d5d1b5, type: 3}
+    pulseButtonWhenAvailable: 1
+    useCustomButtonPrefab: 1
+    buttonPrefab: {fileID: 1888783086081311273, guid: 980b9f128c36fe246b1d4d1fb848a0ae,
+      type: 3}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 127
+    upgradeType: 10
+  - upgradeName: Sales Value
+    valueType: '[VALUE] times'
+    upgradeImage: {fileID: 21300000, guid: e121ccb2713ce244bb7a1aebe5fc318e, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 128
+    upgradeType: 11
+  buttonItemsPressUpgrades:
+  - upgradeName: Press Speed
+    valueType: s
+    upgradeImage: {fileID: 21300000, guid: 534c945d720cc5140ad3575709939f29, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 121
+    upgradeType: 0
+  - upgradeName: Power
+    valueType: N
+    upgradeImage: {fileID: 21300000, guid: 7164e06952f8ecd4bb3373d6dd548fd5, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 0
+    upgradeType: 2
+  - upgradeName: Width
+    valueType: m
+    upgradeImage: {fileID: 21300000, guid: 03fcb1f2b1c63874db714dc9a425a2d2, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 113
+    upgradeType: 3
+  buttonItemsBoosters:
+  - upgradeName: Game Speed Booster
+    valueType: x
+    upgradeImage: {fileID: 21300000, guid: 2eca6fca34de3dd44b8cd23ae699ebc8, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 340916a78a484f74db8a59c3ce9dd400, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 3
+    order: 0
+    boosterType: 0
+  - upgradeName: Income Booster
+    valueType: x
+    upgradeImage: {fileID: 21300000, guid: 9165256c22a0ffd4b87320b725461271, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 340916a78a484f74db8a59c3ce9dd400, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 8
+    order: 0
+    boosterType: 1
+  smeltersUpgrades:
+  - upgradeName: Mixer Time
+    valueType: s
+    upgradeImage: {fileID: 21300000, guid: d3142f0ac100c7b43b37ccc849af06b5, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 117
+    upgradeType: 0
+  - upgradeName: Marketing
+    valueType: profit x[VALUE]
+    upgradeImage: {fileID: 21300000, guid: 271d916a92c0da947b15ace04e85b6c9, type: 3}
+    priceImage: {fileID: 0}
+    buttonImage: {fileID: 21300000, guid: 7a593b0637a17f44fb200410f4abf020, type: 3}
+    pulseButtonWhenAvailable: 0
+    useCustomButtonPrefab: 0
+    buttonPrefab: {fileID: 0}
+    timerOutputType: 1
+    timerAdditionalOutputString: 
+    buttonClickSound: 2
+    order: 118
+    upgradeType: 1

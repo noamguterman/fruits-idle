@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball To Crush
+  - Smallest Pieces
+  - Pressure Zone
+  - Interactive
+  - DynamicParticle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Default Pieces
+  - Smallest Pieces
+  - Collision With Default Pieces
+  - Collision With All Pieces
+  - Pieces On Conveyor
+  - Conveyor
+  - Border
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2102524599
+    locked: 0
+  - name: Boosting Monometr
+    uniqueID: 3439202373
+    locked: 0
+  - name: Game Screen 1
+    uniqueID: 928783801
+    locked: 0
+  - name: Game Screen Intermediate
+    uniqueID: 3445838257
+    locked: 0
+  - name: Game Screen 2
+    uniqueID: 142798079
+    locked: 0
+  - name: Game Screen Intermediate 1
+    uniqueID: 3344037987
+    locked: 0
+  - name: Game Screen 3
+    uniqueID: 3346456069
+    locked: 0
+  - name: Game Screen 4
+    uniqueID: 303721995
+    locked: 0
+  - name: Always On Top
+    uniqueID: 3042021111
+    locked: 0
